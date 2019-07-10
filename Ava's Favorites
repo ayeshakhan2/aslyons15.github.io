@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title> About Ava and Contact</title></head>
+<body>
+  <h2>Ava's Favorites</h2>
+  <p>Favorite Color: Purple </p>
+  <p>Favorite Book: Catcher in the Rye </p>
+  <p>Favorite Movie: Gone with the Wind </p>
+  <p>Favorite TV show: Lost/Supernatural </p>
+
+  <a href ="About Ava and Contacts.html">About Ava</a>
+
+
+</body>
+</html>

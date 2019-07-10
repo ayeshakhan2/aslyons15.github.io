@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title> About Ava and Contacts</title></head>
+<body>
+  <h2>About Me</h2>
+  <p>Birthday: November 10, 2001 </p>
+  <p>Age: 17 </p>
+  <p>School:Naperville Central High School</p>
+  <a href ="Ava's Favorites.html">Ava's Favorites</a>
+  <a href = "aslyons15@gmail.com">Email Adress </a>
+  
+
+
+
+
+</body>
+
+
+</html>
