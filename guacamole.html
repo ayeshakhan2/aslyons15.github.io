@@ -1,8 +1,29 @@
 <!DOCTYPE html>
-<html>
-<head><title> Guacamole</title>
+
+
+
+<html lang="en">
+
+
+
+<head>
+
+
+
+  <meta charset="utf-8">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
 <style>
-  
+
+
 
 
 body {margin:0;}
@@ -11,15 +32,31 @@ body {margin:0;}
 
 .navbar {
 
+
+
   overflow: hidden;
+
+
 
   background-color: #333;
 
+
+
   position: fixed;
+
+
 
   top: 0;
 
+
+
   width: 100%;
+
+
+
+  z-index:1; /*Add this*/
+
+
 
 }
 
@@ -27,29 +64,64 @@ body {margin:0;}
 
 .navbar a {
 
+
+
   float: left;
+
+
 
   display: block;
 
+
+
   color: #f2f2f2;
+
+
 
   text-align: center;
 
+
+
   padding: 14px 16px;
+
+
 
   text-decoration: none;
 
+
+
   font-size: 17px;
 
+
+
 }
+
+
+table {
+
+
+
+
+  border-spacing: 15px;
+
+
+
+ }
+
 
 
 
 .navbar a:hover {
 
+
+
   background: #ddd;
 
+
+
   color: black;
+
+
 
 }
 
@@ -57,74 +129,121 @@ body {margin:0;}
 
 .main {
 
+
+
   padding: 16px;
+
+
 
   margin-top: 30px;
 
+
+
   height: 1500px; /* Used in this example to enable scrolling */
+
+
 
 }
 
-<script type="text/javascript">
-</script>
+
+
 </style>
-<body>
-  <div class="navbar">
 
-  <a href="index.html">Home</a>
-
-  <a href="about.html">About</a>
-
-  <a href="breakfast.html">Breakfast</a>
-
-  <a href="Lunch.html">Lunch</a>
-
-  <a href="Appetizers.html">Appetizers</a>
-
-  <a href="Dinner.html">Dinner</a>
-
-  <a href="dessert.html">Desserts</a>
-
-</div>
-
-<p>
-<center> <h1> Guacamole </h1> </center>
-<p>
-<div class="topnav">
-<a class="Home" href="Appetizers.html">Appetizers</a>
-<a href="lunch.html">Lunch</a>
-<a href="desserts.html">Desserts</a>
-</div>
-<img src="guacamole.jpg" alt="Avatar" style="width:450px;height:300px;">
-<h3> Total time: 10 minutes </h3>
-<h2> Ingredients: <h2>
-<h4> 3 avocados - peeled, pitted, and mashed </h4>
-<h4> 1 lime, juiced </h4>
-<h4> 1 teaspoon salt </h4>
-<h4> 1/2 cup diced onion </h4>
-<h4> 3 tablespoons chopped fresh cilantro </h4>
-<h4> 2 roma (plum) tomatoes, diced </h4>
-<h4> 1 teaspoon minced garlic </h4>
-<h4> 1 pinch ground cayenne pepper (optional) </h4>
-<h2> Instructions: </h2>
-<h4> 1. In a medium bowl, mash together the avocados, lime juice, and salt. Mix in onion, cilantro, tomatoes, and garlic. Stir in cayenne pepper. Refrigerate 1 hour for best flavor, or serve immediately.  </h4>
-<h2> Nutrition facts: </h2>
-<h4> Per Serving: 262 calories; 22.2 g fat; 18 g carbohydrates; 3.7 g protein; 0 mg cholesterol; 596 mg sodium. </h4>
-
-
-<p>
-</p>
-<div>
-<center>  </center>
-<p>
-<center> <img src=""> </center>
-</p>
-<center> <h2>  </h2> </center>
-<p>
-<center> For more information <a href = "https://www.allrecipes.com/recipe/14231/guacamole/?clickId=right%20rail0&internalSource=rr_feed_recipe_sb&referringId=69084%20referringContentType%3Drecipe"> Click </a> here. </center>
-</p>
 
 
 </head>
+
+<body >
+
+
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="breakfast.html">Breakfast</a>
+  <a href="Lunch.html">Lunch</a>
+  <a href="Appetizers.html">Appetizers</a>
+  <a href="Dinner.html">Dinner</a>
+  <a href="dessert.html">Desserts</a>
+  <input type="text" placeholder="Search..">
+
+</div>
+
+
+<center> <h1> Guacamole </h1> </center>
+
+<p>
+</p>
+
+<div class="topnav">
+
+<a class="Home" href="Appetizers.html">Appetizers</a>
+
+<a href="lunch.html">Lunch</a>
+
+<a href="desserts.html">Desserts</a>
+
+</div>
+
+<img src="guacamole.jpg" alt="Avatar" style="width:450px;height:300px;">
+
+<h3> Total time: 10 minutes </h3>
+
+<h2> Ingredients: <h2>
+
+<h4> 3 avocados - peeled, pitted, and mashed </h4>
+
+<h4> 1 lime, juiced </h4>
+
+<h4> 1 teaspoon salt </h4>
+
+<h4> 1/2 cup diced onion </h4>
+
+<h4> 3 tablespoons chopped fresh cilantro </h4>
+
+<h4> 2 roma (plum) tomatoes, diced </h4>
+
+<h4> 1 teaspoon minced garlic </h4>
+
+<h4> 1 pinch ground cayenne pepper (optional) </h4>
+
+<h2> Instructions: </h2>
+
+<h4> 1. In a medium bowl, mash together the avocados, lime juice, and salt. Mix in onion, cilantro, tomatoes, and garlic. Stir in cayenne pepper. Refrigerate 1 hour for best flavor, or serve immediately.  </h4>
+
+<h2> Nutrition facts: </h2>
+
+<h4> Per Serving: 262 calories; 22.2 g fat; 18 g carbohydrates; 3.7 g protein; 0 mg cholesterol; 596 mg sodium. </h4>
+
+
+
+
+
+<p>
+
+</p>
+
+<div>
+
+<center>  </center>
+
+<p>
+
+<center> <img src=""> </center>
+
+</p>
+
+<center> <h2>  </h2> </center>
+
+<p>
+
+<center> For more information <a href = "https://www.allrecipes.com/recipe/14231/guacamole/?clickId=right%20rail0&internalSource=rr_feed_recipe_sb&referringId=69084%20referringContentType%3Drecipe"> Click </a> here. </center>
+
+</p>
+
+
+
+
+
 </body>
 </html>
