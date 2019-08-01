@@ -1,90 +1,29 @@
 <!DOCTYPE html>
-<html>
+
+
+
+<html lang="en">
+
+
+
 <head>
- <div class="topnav">
 
 
 
-  <input type="text" placeholder="Search..">
+  <meta charset="utf-8">
 
 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-</div>
-<body>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
 <style>
- .topnav input[type=text] {
 
 
-
- float: right;
-
-
-
- padding: 6px;
-
-
-
- border: none;
-
-
-
- margin-top: 8px;
-
-
-
- margin-right: 16px;
-
-
-
- font-size: 17px;
-
-
-
-}
-
-.topnav a, .topnav input[type=text] {
-
-
-
-   float: none;
-
-
-
-   display: block;
-
-
-
-   text-align: left;
-
-
-
-   width: 100%;
-
-
-
-   margin: 0;
-
-
-
-   padding: 14px;
-
-
-
- }
-
-
-
- .topnav input[type=text] {
-
-
-
-   border: 1px solid #ccc;
-
-
-
- }
 
 
 body {margin:0;}
@@ -93,15 +32,31 @@ body {margin:0;}
 
 .navbar {
 
+
+
   overflow: hidden;
+
+
 
   background-color: #333;
 
+
+
   position: fixed;
+
+
 
   top: 0;
 
+
+
   width: 100%;
+
+
+
+  z-index:1; /*Add this*/
+
+
 
 }
 
@@ -109,19 +64,35 @@ body {margin:0;}
 
 .navbar a {
 
+
+
   float: left;
+
+
 
   display: block;
 
+
+
   color: #f2f2f2;
+
+
 
   text-align: center;
 
+
+
   padding: 14px 16px;
+
+
 
   text-decoration: none;
 
+
+
   font-size: 17px;
+
+
 
 }
 
@@ -129,9 +100,15 @@ body {margin:0;}
 
 .navbar a:hover {
 
+
+
   background: #ddd;
 
+
+
   color: black;
+
+
 
 }
 
@@ -139,209 +116,332 @@ body {margin:0;}
 
 .main {
 
+
+
   padding: 16px;
+
+
 
   margin-top: 30px;
 
+
+
   height: 1500px; /* Used in this example to enable scrolling */
 
+
+
 }
 
- table {
-  border-spacing: 15px;
-}
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 100%;
-  border-radius: 5px;
-}
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-img {
-  border-radius: 5px 5px 0 0;
-}
-
-.container {
-  padding: 2px 16px;
-}
 </style>
+
+
+
 </head>
-<body>
- <div class="navbar">
 
+<body >
+
+
+
+<div class="navbar">
   <a href="index.html">Home</a>
-
   <a href="about.html">About</a>
-
   <a href="breakfast.html">Breakfast</a>
-
   <a href="Lunch.html">Lunch</a>
-
   <a href="Appetizers.html">Appetizers</a>
-
   <a href="Dinner.html">Dinner</a>
-
   <a href="dessert.html">Desserts</a>
-   <input type="text" placeholder="Search..">
+  <input type="text" placeholder="Search..">
 
 </div>
-  <table style="width:50%" cellpadding="0" border="0" align="center" cellspacing="0">
+
+<table style="width:50%" cellpadding="0" border="0" align="center" cellspacing="0">
+
 <tr>
+
 <td>
 
+
+
 <div class="card">
-  <a href="S&M.html"><img src="meatballs.jpg" alt="" style="width:350px; height:300px"></a>
-  <div class="container">
-    <h4>Spaghetti and Meatballs<b>
+
+<a href="S&M.html"><img src="meatballs.jpg" alt="" style="width:350px; height:300px"></a>
+
+<div class="container">
+
+	<h4>Spaghetti and Meatballs<b>
+
 </h4>
-    <p>Easy</p>
-  </div>
+
+	<p>Easy</p>
+
 </div>
+
+</div>
+
 </td>
 
 
+
+
+
 <td>
+
 <div class="card">
-  <a href="M&C.html"><img src="mac&cheese.jpg" alt="" style="width:350px; height:300px"></a>
-  <div class="container">
-  <h4>Mac & Cheese<b>
+
+<a href="M&C.html"><img src="mac&cheese.jpg" alt="" style="width:350px; height:300px"></a>
+
+<div class="container">
+
+<h4>Mac & Cheese<b>
+
 </h4>
-  <p>Easy</p>
+
+<p>Easy</p>
+
 </div>
+
 </div>
+
 </body>
+
 </html>
+
 </td>
+
+</tr>
+
+
+
+<tr>
+
+<td>
+
+<div class="card">
+
+<a href="SloppyJoes.html"><img src="joes.jpg" alt="" style="width:350px; height:300px"></a>
+
+<div class="container">
+
+<h4>Sloppy Joe Slider<b>
+
+</h4>
+
+	<p>Medium</p>
+
+</div>
+
+</div>
+
+</td>
+
+<td>
+
+
+
+<div class="card">
+
+<a href="Beef Stroganoff.html"><img src="stroganoff.jpg" alt="" style="width:350px; height:300px"></a>
+
+<div class="container">
+
+	<h4>Beef Stroganoff<b>
+
+</h4>
+
+	<p>Medium</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+
+</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>
+
+<div class="card">
+
+<a href="PanFriedTilapia.html"><img src="tilapia.jpg" alt="" style="width:350px; height:300px"></a>
+
+<div class="container">
+
+	<h4>Pan Frie Tilapia<b>
+
+</h4>
+
+	<p>Medium</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+
+</td>
+
+<td>
+
+
+
+
+
+
+
+<div class="card">
+
+<a href="OrangeChicken.html"><img src="orange.jpg" alt="" style="width:350px; height:300px">
+
+<div class="container">
+
+	<h4>Orange Chicken<b>
+
+</h4>
+
+	<p>Medium</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+
+</td>
+
 </tr>
 
 <tr>
-<td>
-<div class="card">
-  <a href="SloppyJoes.html"><img src="joes.jpg" alt="" style="width:350px; height:300px"></a>
-  <div class="container">
-  <h4>Sloppy Joe Slider<b>
-</h4>
-    <p>Medium</p>
-  </div>
-</div>
-</td>
+
 <td>
 
+
+
+
+
+
+
 <div class="card">
-  <a href="Beef Stroganoff.html"><img src="stroganoff.jpg" alt="" style="width:350px; height:300px"></a>
-  <div class="container">
-    <h4>Beef Stroganoff<b>
+
+<a href="Vegan.html"><img src="vegan.jpg" alt="" style="width:350px; height:300px"></a>
+
+<div class="container">
+
+<h4><b>Vegan Mushroom Stroganoff</b>
+
 </h4>
-    <p>Medium</p>
-  </div>
+
+	<p> Medium</p>
+
 </div>
+
+</div>
+
 </body>
+
 </html>
+
 </td>
+
+<td>
+
+
+
+
+
+<div class="card">
+
+<a href="Alfredo.html"><img src="alfredo.jpg" alt="" style="width:350px; height:300px"></a>
+
+<div class="container">
+
+<h4><b>Fettuccini Alfredo</b>
+
+</h4>
+
+	<p>Easy</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
+
+</td>
+
 </tr>
+
+
 
 <tr>
-  <td>
-<div class="card">
-  <a href="PanFriedTilapia.html"><img src="tilapia.jpg" alt="" style="width:350px; height:300px"></a>
-  <div class="container">
-    <h4>Pan Frie Tilapia<b>
-</h4>
-    <p>Medium</p>
-  </div>
-</div>
-</body>
-</html>
-</td>
+
 <td>
 
 
 
 <div class="card">
-  <a href="OrangeChicken.html"><img src="orange.jpg" alt="" style="width:350px; height:300px">
-  <div class="container">
-    <h4>Orange Chicken<b>
+
+<a href="Rice.html"><img src="Beans.jpg" alt="" style="width:350px; height:300px"></a>
+
+<div class="container">
+
+<h4><b>Rice and Beans</b>
+
 </h4>
-    <p>Medium</p>
-  </div>
+
+	<p>Easy</p>
+
 </div>
+
+</div>
+
 </body>
+
 </html>
+
 </td>
-</tr>
-<tr>
+
 <td>
 
 
 
 <div class="card">
-  <a href="Vegan.html"><img src="vegan.jpg" alt="" style="width:350px; height:300px"></a>
-  <div class="container">
-  <h4><b>Vegan Mushroom Stroganoff</b>
+
+<a href="meat.html"><img src="Loaf.jpg" alt="" style="width:350px; height:300px"></a>
+
+<div class="container">
+
+<h4><b>Meat Loaf</b>
+
 </h4>
-    <p> Medium</p>
-  </div>
+
+	<p>Easy</p>
+
 </div>
-</body>
-</html>
-</td>
-<td>
+
+</div>
 
 
-<div class="card">
-  <a href="Alfredo.html"><img src="alfredo.jpg" alt="" style="width:350px; height:300px"></a>
-  <div class="container">
-  <h4><b>Fettuccini Alfredo</b>
-</h4>
-    <p>Easy</p>
-  </div>
-</div>
-</body>
-</html>
 </td>
+
 </tr>
 
-<tr>
-  <td>
-
-<div class="card">
-  <a href="Rice.html"><img src="Beans.jpg" alt="" style="width:350px; height:300px"></a>
-  <div class="container">
-  <h4><b>Rice and Beans</b>
-</h4>
-    <p>Easy</p>
-  </div>
-</div>
-</body>
-</html>
-</td>
-<td>
-
-<div class="card">
-  <a href="meat.html"><img src="Loaf.jpg" alt="" style="width:350px; height:300px"></a>
-  <div class="container">
-  <h4><b>Meat Loaf</b>
-</h4>
-    <p>Easy</p>
-  </div>
-</div>
-</body>
-</html>
-</td>
-</tr>
 </table>
-
-
-
-
-
-
-
 
 
 </body>
