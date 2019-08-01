@@ -1,18 +1,12 @@
+
 <!DOCTYPE html>
 
+<html>
 
 
-<html lang="en">
-
-
-
-<head>
-
-
-  <title> Pasta with sausage, spinach, and creamy gorgonzola </title>
+  <title> Pasta with sausage, spinach and creamy gorgonzola </title>
 
   <meta charset="utf-8">
-
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -20,51 +14,18 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-
 <style>
 
 
-* {
-box-sizing: border-box;
-}
 
-#myInput {
-background-image: url('/css/searchicon.png');
-background-position: 10px 12px;
-background-repeat: no-repeat;
-width: 25%;
-font-size: 16px;
-padding: 12px 20px 12px 40px;
-border: 1px solid #ddd;
-margin-bottom: 12px;
-}
-#myUL li{
-display:none;
-}
-#myUL {
-list-style-type: none;
-padding: 0;
-margin: 0;
-}
 
-#myUL li a {
-border: 1px solid #ddd;
-margin-top: -1px; /* Prevent double borders */
-background-color: #f6f6f6;
-padding: 12px;
-text-decoration: none;
-font-size: 18px;
-color: black;
-display: block
-}
-
-#myUL li a:hover:not(.header) {
-background-color: #eee;
-}
 
 
 body {margin:0;}
+
+
+
+
 
 
 
@@ -72,7 +33,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   overflow: hidden;
+
+
+
+
 
 
 
@@ -80,7 +49,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   position: fixed;
+
+
+
+
 
 
 
@@ -88,7 +65,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   width: 100%;
+
+
+
+
 
 
 
@@ -96,7 +81,15 @@ body {margin:0;}
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -104,7 +97,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   float: left;
+
+
+
+
 
 
 
@@ -112,7 +113,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   color: #f2f2f2;
+
+
+
+
 
 
 
@@ -120,7 +129,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   padding: 14px 16px;
+
+
+
+
 
 
 
@@ -128,23 +145,22 @@ body {margin:0;}
 
 
 
+
+
+
+
   font-size: 17px;
+
+
+
+
 
 
 
 }
 
 
-table {
 
-
-
-
-  border-spacing: 15px;
-
-
-
- }
 
 
 
@@ -153,7 +169,15 @@ table {
 
 
 
+
+
+
+
   background: #ddd;
+
+
+
+
 
 
 
@@ -161,7 +185,15 @@ table {
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -169,7 +201,15 @@ table {
 
 
 
+
+
+
+
   padding: 16px;
+
+
+
+
 
 
 
@@ -177,276 +217,482 @@ table {
 
 
 
+
+
+
+
   height: 1500px; /* Used in this example to enable scrolling */
 
 
 
+
+
+
+
 }
 
 
+
+* {
+
+box-sizing: border-box;
+
+}
+
+
+
+#myInput {
+
+background-image: url('/css/searchicon.png');
+
+background-position: 10px 12px;
+
+background-repeat: no-repeat;
+
+width: 25%;
+
+font-size: 16px;
+
+padding: 12px 20px 12px 40px;
+
+border: 1px solid #ddd;
+
+margin-bottom: 12px;
+
+}
+
+#myUL li{
+
+display:none;
+
+}
+
+#myUL {
+
+list-style-type: none;
+
+padding: 0;
+
+margin: 0;
+
+}
+
+
+
+#myUL li a {
+
+border: 1px solid #ddd;
+
+margin-top: -1px; /* Prevent double borders */
+
+background-color: #f6f6f6;
+
+padding: 12px;
+
+text-decoration: none;
+
+font-size: 18px;
+
+color: black;
+
+display: block
+
+}
+
+
+
+#myUL li a:hover:not(.header) {
+
+background-color: #eee;
+
+}
+
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  .hero-image {
+    background-image:  url("https://carlsbadcravings.com/wp-content/uploads/2018/03/Creamy-Tortellini-4.jpg");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 100%;
+    padding: 0 90px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 90px;
+    background-color: #f1f1f1;
+  }
+
+h1{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif    ;
+}
+li, p {
+  font-family:"Courier New", Courier, monospace;
+}
 
 </style>
-
-
-
 </head>
-
-<body >
-
-
-
-<div class="navbar">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="breakfast.html">Breakfast</a>
-  <a href="Lunch.html">Lunch</a>
-  <a href="Appetizers.html">Appetizers</a>
-  <a href="Dinner.html">Dinner</a>
-  <a href="dessert.html">Desserts</a>
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a food">
-
-</div>
+<body>
 
 
 
 
-<ul id="myUL">
-<li><a href="dessert.html">Desserts</a></li>
-<li><a href="lunch.html">Lunch</a></li>
-<li><a href="dinner.html">Dinner</a></li>
-<li><a href="appetizers.html">Appetizers</a></li>
-<li><a href="breakfast.html">Breakfest</a></li>
+  <div class="navbar">
 
-<li><a href="BroccoliCheeseSoup.html">Broccoli Cheddar Soup </a></li>
-<li><a href="GrilledTomatoandCheeseSandwich.html">Grilled Tomato and Cheese Sandwich  </a></li>
-<li><a href="PastawithsausagespinachcreamyGorgonzola.html">Pasta with sausage, spinach & creamy Gorgonzola</a></li>
-<li><a href="CobbSalad.html">Cobb Salad</a></li>
-<li><a href="PestoPastaSalad.html">Pesto Pasta Salad</a></li>
-<li><a href="ChickenSaladWrap.html">Chicken Salad Wrap</a></li>
-<li><a href="TunaSalad.html">Tuna Salad</a></li>
-<li><a href="ChickenNoodleSoup.html">Chicken Noodle Soup </a></li>
-<li><a href="ShrimpStirFry.html">Shrimp Stir Fry</a></li>
-<li><a href="CaliforniaRollSushi.html">California Roll Sushi </a></li>
+    <a href="index.html">Home</a>
 
+    <a href="about.html">About</a>
 
-<li><a href="oatmeal.html">Overnight Peach Oatmeal</a></li>
-<li><a href="eggsandwich.html">Breakfast Biscuits 'N' Eggs </a></li>
-<li><a href="potatoes.html">Home Potatoes</a></li>
-<li><a href="french.html">French Toast Fingers</a></li>
-<li><a href="banana.html">Gluten-Free Banana Pancakes</a></li>
-<li><a href="zucchini.html">Zucchini Fritata</a></li>
-<li><a href="tex.html">Tex-Mex Breakfast Haystacks</a></li>
-<li><a href="crepes.html">Creamy Banana Crepes</a></li>
-<li><a href="hash.html">Southern Hash Browns and Ham Pan Bake</a></li>
-<li><a href="chocolate.html">Chocolate Lover's Pancakes</a></li>
+    <a href="breakfast.html">Breakfast</a>
+
+    <a href="Lunch.html">Lunch</a>
+
+    <a href="Appetizers.html">Appetizers</a>
+
+    <a href="Dinner.html">Dinner</a>
+
+    <a href="dessert.html">Desserts</a>
+
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a food">
 
 
-<li><a href="oreo.html">Oreo Truffles</a></li>
-<li><a href="cheesecake.html">Strawberry Icebox Cake </a></li>
-<li><a href="cereal.html">Chocolate Cereal Treats</a></li>
-<li><a href="icecream.html">Vegan Banana Ice Cream</a></li>
-<li><a href="shortcake.html">Strawberry Shortcake Milkshake</a></li>
-<li><a href="yogurt.html">Healthy Chocolate Chip Peanut Butter Frozen Yogurt</a></li>
-<li><a href="smores.html">Marshmallow Smores</a></li>
-<li><a href="milkshake.html">Salted Pretzel Nutella Fudge Milkshake</a></li>
-<li><a href="keto.html">Keto Chocolate Mousse</a></li>
-<li><a href="bars.html">Magic Bars</a></li>
 
-<li><a href="S&M.html">Spaghetti and Meatballs</a></li>
-<li><a href="M&C.html">Mac & Cheese </a></li>
-<li><a href="SloppyJoes.html">Sloppy Joe Slider</a></li>
-<li><a href="Beef Stroganoff.html">Beef Stroganoff</a></li>
-<li><a href="PanFriedTilapia.html">Pan Fried Tilapia</a></li>
-<li><a href="OrangeChicken.html"> Orange Chicken</a></li>
-<li><a href="Vegan.html">Vegan Mushroom Stroganoff</a></li>
-<li><a href="Alfredo.html">Fettuccini Alfredo</a></li>
-<li><a href="Rice.html">Rice and Beans</a></li>
-<li><a href="meat.html">Meat Loaf</a></li>
-
-
-<li><a href="eggs.html">Bacon Cheddar Deviled Eggs</a></li>
-<li><a href="guacamole.html">Guacamole </a></li>
-<li><a href="meatballs.html">Cajun Appetizer Meatballs</a></li>
-<li><a href="Mozzarella.html">Mozzarella and Tomato Appetizer Tray</a></li>
-<li><a href="hamandcheese.html">Easy Ham and Cheese Appetizer Sandwiches</a></li>
-<li><a href="potatoskins.html">Restaurant-Style Potato Skins</a></li>
-<li><a href="sausages.html">Brown Sugar Smokies</a></li>
-<li><a href="jalapenos.html">Bacon-Wrapped Jalapeno Popperss</a></li>
-<li><a href="spinachdip.html">Hot Artichoke and Spinach Dip </a></li>
-<li><a href="wings.html">Restaurant-Style Buffalo Chicken Wings </a></li>
-
-</ul>
-
-<script>
-function myFunction() {
-var input, filter, ul, li, a, i, txtValue;
-input = document.getElementById("myInput");
-filter = input.value.toUpperCase();
-ul = document.getElementById("myUL");
-li = ul.getElementsByTagName('li');
-
-if(input.value.length == 0){
-ul.style.display = "none";
-return;
-}else{
-ul.style.display = "block";
-}
-// Loop through all list items, and hide those who don't match the search query
-for (i = 0; i < li.length; i++) {
-a = li[i].getElementsByTagName("a")[0];
-if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-li[i].style.display = "block";
-} else {
-li[i].style.display = "none";
-}
-}
-}
-</script>
-
-
-<h1>Pasta with sausage, spinach and creamy gorgonzola</h1>
-<picture>
-<img src="https://carlsbadcravings.com/wp-content/uploads/2018/03/Creamy-Tortellini-4.jpg  "height = "300px" width= "450px" alt="MDN">
-</picture>
-<p>
-  Prep time: 20 minutes
-  </p>
-  <p>
-  Cook time: 40 minutes
-  </p>
-  <p>
-  Total time: 60 minutes
-  </p>
-
-<h2>Ingredients</h2>
-<p>
-  2 large, Italian-style sausage links, grilled</p>
-    <p>
-  2  cups dried small pasta, like orecchiette or penne, cooked</p>
-    <p>
-  1 tablespoon butter</p>
-    <p>
-  1 tablespoon flour</p>
-    <p>
-  1-1/2 cups low-fat milk</p>
-    <p>
-  6 tablespoons plain Greek-style yogurt</p>
-    <p>
-  4 ounces Gorgonzola cheese</p>
-    <p>
-  1/4 teaspoon ground black pepper</p>
-    <p>
-  4 cups (packed) fresh spinach leaves</p>
-
-
-<h2>
-  Instructions
-  </h2>
-<p> 1. Grill the sausage links until they're cooked through. Slice the links into 1/4-inch rounds, cover to keep them warm and set aside.</p>
-<p>
-2.Cook the pasta according to the package directions.
-</p>
-<p>3.As the pasta cooks, add the butter to a large skillet over medium heat. When the butter has melted, add the flour and stir with a whisk to incorporate the two, for just about a minute.
-</p>
-<p>4.Slowly add the milk to the butter and flour mixture, whisking, then add the yogurt and black pepper.
-</p>
-<p>5.Stirring constantly with a whisk, bring the mixture to a boil to let it thicken, then immediately turn the heat to low.
-</p>
-<p>6.Add the Gorgonzola to the milk mixture and stir until it is melted.
-</p>
-<p>7.Drain the pasta then place it back into its pan. Add the spinach to the pasta and mix it for several turns. The spinach should wilt from the heat of the pasta.
-</p>
-<p>8.Add the pasta and spinach to the sauce, along with the sliced sausage.
-</p>
-<p>9.Mix well to incorporate and serve warm.
-</p>
-<h2>
-  Nutrition</h2>
-<p>
-Amount Per 1 Serving</p>
-<p>
-Calories:
-692.9 Kcal (2901 kJ)</p>
-<p>
-
-Calories from fat:
-467.51 Kcal
-</p>
-<p>
-
-% Daily Value*
-</p>
-<p>
-Total Fat
-51.95g
- 80%
-</p>
-<p>
-Cholesterol
-128.19mg
- 43%
-</p>
-<p>
-Sodium
-1751.34mg
-73%
-</p>
-<p>
-Potassium
-202.7mg
- 4%
-</p>
-<p>
-Total Carbs
-15.97g
- 5%
-</p>
-<p>
-Sugars
-4.4g
- 18%
-</p>
-<p>
-Dietary Fiber
-1.15g
- 5%
-</p>
-<p>
-Protein
-33.75g
- 68%
-</p>
-<p>
-Vitamin C
-7.2mg
- 12%
-</p>
-<p>
-Vitamin A
-0.3mg
- 10%
-</p>
-<p>
-Iron
-5.5mg
- 31%
-</p>
-<p>
-Calcium
-536.9mg
- 54%</p>
+  </div>
 
 
 
 
-<h3>
-  Click <a href="https://www.sheknows.com/food-and-recipes/articles/994153/pasta-with-sausage-spinach-and-creamy-gorgonzola-recipe/  ">here</a> for more information.
-</h3>
 
-<h3>
-  Or watch this video
-  </h3>
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/vG430XQGr8s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </body>
+
+  <ul id="myUL">
+
+  <li><a href="dessert.html">Desserts</a></li>
+
+  <li><a href="lunch.html">Lunch</a></li>
+
+  <li><a href="dinner.html">Dinner</a></li>
+
+  <li><a href="appetizers.html">Appetizers</a></li>
+
+  <li><a href="breakfast.html">Breakfest</a></li>
+
+
+
+  <li><a href="BroccoliCheeseSoup.html">Broccoli Cheddar Soup </a></li>
+
+  <li><a href="GrilledTomatoandCheeseSandwich.html">Grilled Tomato and Cheese Sandwich  </a></li>
+
+  <li><a href="PastawithsausagespinachcreamyGorgonzola.html">Pasta with sausage, spinach & creamy Gorgonzola</a></li>
+
+  <li><a href="CobbSalad.html">Cobb Salad</a></li>
+
+  <li><a href="PestoPastaSalad.html">Pesto Pasta Salad</a></li>
+
+  <li><a href="ChickenSaladWrap.html">Chicken Salad Wrap</a></li>
+
+  <li><a href="TunaSalad.html">Tuna Salad</a></li>
+
+  <li><a href="ChickenNoodleSoup.html">Chicken Noodle Soup </a></li>
+
+  <li><a href="ShrimpStirFry.html">Shrimp Stir Fry</a></li>
+
+  <li><a href="CaliforniaRollSushi.html">California Roll Sushi </a></li>
+
+
+
+
+
+  <li><a href="oatmeal.html">Overnight Peach Oatmeal</a></li>
+
+  <li><a href="eggsandwich.html">Breakfast Biscuits 'N' Eggs </a></li>
+
+  <li><a href="potatoes.html">Home Potatoes</a></li>
+
+  <li><a href="french.html">French Toast Fingers</a></li>
+
+  <li><a href="banana.html">Gluten-Free Banana Pancakes</a></li>
+
+  <li><a href="zucchini.html">Zucchini Fritata</a></li>
+
+  <li><a href="tex.html">Tex-Mex Breakfast Haystacks</a></li>
+
+  <li><a href="crepes.html">Creamy Banana Crepes</a></li>
+
+  <li><a href="hash.html">Southern Hash Browns and Ham Pan Bake</a></li>
+
+  <li><a href="chocolate.html">Chocolate Lover's Pancakes</a></li>
+
+
+
+
+
+  <li><a href="oreo.html">Oreo Truffles</a></li>
+
+  <li><a href="cheesecake.html">Strawberry Icebox Cake </a></li>
+
+  <li><a href="cereal.html">Chocolate Cereal Treats</a></li>
+
+  <li><a href="icecream.html">Vegan Banana Ice Cream</a></li>
+
+  <li><a href="shortcake.html">Strawberry Shortcake Milkshake</a></li>
+
+  <li><a href="yogurt.html">Healthy Chocolate Chip Peanut Butter Frozen Yogurt</a></li>
+
+  <li><a href="smores.html">Marshmallow Smores</a></li>
+
+  <li><a href="milkshake.html">Salted Pretzel Nutella Fudge Milkshake</a></li>
+
+  <li><a href="keto.html">Keto Chocolate Mousse</a></li>
+
+  <li><a href="bars.html">Magic Bars</a></li>
+
+
+
+  <li><a href="S&M.html">Spaghetti and Meatballs</a></li>
+
+  <li><a href="M&C.html">Mac & Cheese </a></li>
+
+  <li><a href="SloppyJoes.html">Sloppy Joe Slider</a></li>
+
+  <li><a href="Beef Stroganoff.html">Beef Stroganoff</a></li>
+
+  <li><a href="PanFriedTilapia.html">Pan Fried Tilapia</a></li>
+
+  <li><a href="OrangeChicken.html"> Orange Chicken</a></li>
+
+  <li><a href="Vegan.html">Vegan Mushroom Stroganoff</a></li>
+
+  <li><a href="Alfredo.html">Fettuccini Alfredo</a></li>
+
+  <li><a href="Rice.html">Rice and Beans</a></li>
+
+  <li><a href="meat.html">Meat Loaf</a></li>
+
+
+
+
+
+  <li><a href="eggs.html">Bacon Cheddar Deviled Eggs</a></li>
+
+  <li><a href="guacamole.html">Guacamole </a></li>
+
+  <li><a href="meatballs.html">Cajun Appetizer Meatballs</a></li>
+
+  <li><a href="Mozzarella.html">Mozzarella and Tomato Appetizer Tray</a></li>
+
+  <li><a href="hamandcheese.html">Easy Ham and Cheese Appetizer Sandwiches</a></li>
+
+  <li><a href="potatoskins.html">Restaurant-Style Potato Skins</a></li>
+
+  <li><a href="sausages.html">Brown Sugar Smokies</a></li>
+
+  <li><a href="jalapenos.html">Bacon-Wrapped Jalapeno Popperss</a></li>
+
+  <li><a href="spinachdip.html">Hot Artichoke and Spinach Dip </a></li>
+
+  <li><a href="wings.html">Restaurant-Style Buffalo Chicken Wings </a></li>
+
+
+
+  </ul>
+
+
+
+  <script>
+
+  function myFunction() {
+
+  var input, filter, ul, li, a, i, txtValue;
+
+  input = document.getElementById("myInput");
+
+  filter = input.value.toUpperCase();
+
+  ul = document.getElementById("myUL");
+
+  li = ul.getElementsByTagName('li');
+
+
+
+  if(input.value.length == 0){
+
+  ul.style.display = "none";
+
+  return;
+
+  }else{
+
+  ul.style.display = "block";
+
+  }
+
+  // Loop through all list items, and hide those who don't match the search query
+
+  for (i = 0; i < li.length; i++) {
+
+  a = li[i].getElementsByTagName("a")[0];
+
+  if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+
+  li[i].style.display = "block";
+
+  } else {
+
+  li[i].style.display = "none";
+
+  }
+
+  }
+
+  }
+
+  </script>
+
+
+
+<div class="hero-image"></div>
+
+<h1><center><b><font size="10"> Pasta with sausage, spinach and creamy gorgonzola</font></b> </center></h1>
+<table style="width:50%" cellpadding="0" border="0" align="center" cellspacing="0">
+
+<tr>
+<td>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h1>Ingredients:</h1>
+      <ul>
+        <li>  2 large, Italian-style sausage links, grilled
+          <li>
+        <li> 2  cups dried small pasta, like orecchiette or penne, cooked
+        </li>
+        <li>1 tablespoon butter
+        </li>
+        <li>1 tablespoon flour
+        </li>
+        <li>1-1/2 cups low-fat milk
+        </li>
+      <li>6 tablespoons plain Greek-style yogurt
+      </li>
+      <li>4 ounces Gorgonzola cheese
+      </li>
+      1/4 teaspoon ground black pepper
+    </li>
+    <li>  4 cups (packed) fresh spinach leaves
+    </li>
+        
+
+      </ul>
+    </div>
+  </div>
+</td>
+
+<td>
+  <div class="column">
+    <div class="card">
+      <h1><center>Instructions</center></h1>
+      <iframe width="400" height="350" src="https://www.youtube.com/embed/vG430XQGr8s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <ol>
+        <li>1.  Grill the sausage links until they're cooked through. Slice the links into 1/4-inch rounds, cover to keep them warm and set aside.
+          </li>
+        <li>  2.Cook the pasta according to the package directions.
+      </li>
+      <li>3.As the pasta cooks, add the butter to a large skillet over medium heat. When the butter has melted, add the flour and stir with a whisk to incorporate the two, for just about a minute.
+    </li>
+    <li>4.Slowly add the milk to the butter and flour mixture, whisking, then add the yogurt and black pepper.
+    </li>
+    <li>5.Stirring constantly with a whisk, bring the mixture to a boil to let it thicken, then immediately turn the heat to low.
+    </li>
+    <li>6.Add the Gorgonzola to the milk mixture and stir until it is melted.
+    </li>
+    <li>7.Drain the pasta then place it back into its pan. Add the spinach to the pasta and mix it for several turns. The spinach should wilt from the heat of the pasta.
+    </li>
+    <li>8.Add the pasta and spinach to the sauce, along with the sliced sausage.
+    </li>
+    <li>9.Mix well to incorporate and serve warm.
+    </li>
+      </ol>
+      <p>Click <a href="https://www.sheknows.com/food-and-recipes/articles/994153/pasta-with-sausage-spinach-and-creamy-gorgonzola-recipe/  ">here</a> for more information.</p>
+    </div>
+  </div>
+</td>
+</tr>
+
+<tr>
+<td>
+  <div class="column">
+    <div class="card">
+      <h1> <center>Total Time:  60 </center> </h1>
+      <h1><center>Nutrition</center></h1>
+      <ul>
+        <li>  Per Serving</li>
+        <ul>
+      <li>Calories: 692.9 Kcal </li>
+      <li>Total Fat: 51.95g</li>
+      <li>protein: 33.75g</li>
+      <li>cholesterol: 128.19mg</li>
+      <li>sodium: 1751.34mg</li>
+      <li>sugar: 4.4g</li>
+      </ul>
+    </div>
+  </div>
+</td>
+</tr>
+
+</table>
+</body>
 </html>
