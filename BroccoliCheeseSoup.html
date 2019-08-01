@@ -1,18 +1,12 @@
+
 <!DOCTYPE html>
 
+<html>
 
-
-<html lang="en">
-
-
-
-<head>
 
   <title> Broccoli Cheese Soup </title>
 
-
   <meta charset="utf-8">
-
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -20,9 +14,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-
 <style>
+
+
 
 
 
@@ -31,7 +25,15 @@ body {margin:0;}
 
 
 
+
+
+
+
 .navbar {
+
+
+
+
 
 
 
@@ -39,7 +41,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   background-color: #333;
+
+
+
+
 
 
 
@@ -47,7 +57,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   top: 0;
+
+
+
+
 
 
 
@@ -55,11 +73,23 @@ body {margin:0;}
 
 
 
+
+
+
+
   z-index:1; /*Add this*/
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -67,7 +97,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   float: left;
+
+
+
+
 
 
 
@@ -75,7 +113,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   color: #f2f2f2;
+
+
+
+
 
 
 
@@ -83,7 +129,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   padding: 14px 16px;
+
+
+
+
 
 
 
@@ -91,11 +145,23 @@ body {margin:0;}
 
 
 
+
+
+
+
   font-size: 17px;
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -103,7 +169,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   background: #ddd;
+
+
+
+
 
 
 
@@ -111,7 +185,15 @@ body {margin:0;}
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -119,7 +201,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   padding: 16px;
+
+
+
+
 
 
 
@@ -127,396 +217,460 @@ body {margin:0;}
 
 
 
+
+
+
+
   height: 1500px; /* Used in this example to enable scrolling */
 
 
 
+
+
+
+
 }
-  
+
+
+
 * {
+
 box-sizing: border-box;
+
 }
+
+
 
 #myInput {
+
 background-image: url('/css/searchicon.png');
+
 background-position: 10px 12px;
+
 background-repeat: no-repeat;
+
 width: 25%;
+
 font-size: 16px;
+
 padding: 12px 20px 12px 40px;
+
 border: 1px solid #ddd;
+
 margin-bottom: 12px;
+
 }
+
 #myUL li{
+
 display:none;
+
 }
+
 #myUL {
+
 list-style-type: none;
+
 padding: 0;
+
 margin: 0;
+
 }
+
+
 
 #myUL li a {
+
 border: 1px solid #ddd;
+
 margin-top: -1px; /* Prevent double borders */
+
 background-color: #f6f6f6;
+
 padding: 12px;
+
 text-decoration: none;
+
 font-size: 18px;
+
 color: black;
+
 display: block
+
 }
+
+
 
 #myUL li a:hover:not(.header) {
+
 background-color: #eee;
+
 }
 
 
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  .hero-image {
+    background-image:  url("https://cafedelites.com/wp-content/uploads/2017/10/Cheesy-Broccoli-Cheddar-Soup-IMAGE-44.jpg ");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 100%;
+    padding: 0 90px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 90px;
+    background-color: #f1f1f1;
+  }
+
+h1{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif    ;
+}
+li, p {
+  font-family:"Courier New", Courier, monospace;
+}
 
 </style>
-
-
-
 </head>
+<body>
 
-<body >
-
-
-
-<div class="navbar">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="breakfast.html">Breakfast</a>
-  <a href="Lunch.html">Lunch</a>
-  <a href="Appetizers.html">Appetizers</a>
-  <a href="Dinner.html">Dinner</a>
-  <a href="dessert.html">Desserts</a>
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a food">
-
-</div>
-
-
-
-<ul id="myUL">
-<li><a href="dessert.html">Desserts</a></li>
-<li><a href="lunch.html">Lunch</a></li>
-<li><a href="dinner.html">Dinner</a></li>
-<li><a href="appetizers.html">Appetizers</a></li>
-<li><a href="breakfast.html">Breakfest</a></li>
-
-<li><a href="BroccoliCheeseSoup.html">Broccoli Cheddar Soup </a></li>
-<li><a href="GrilledTomatoandCheeseSandwich.html">Grilled Tomato and Cheese Sandwich  </a></li>
-<li><a href="PastawithsausagespinachcreamyGorgonzola.html">Pasta with sausage, spinach & creamy Gorgonzola</a></li>
-<li><a href="CobbSalad.html">Cobb Salad</a></li>
-<li><a href="PestoPastaSalad.html">Pesto Pasta Salad</a></li>
-<li><a href="ChickenSaladWrap.html">Chicken Salad Wrap</a></li>
-<li><a href="TunaSalad.html">Tuna Salad</a></li>
-<li><a href="ChickenNoodleSoup.html">Chicken Noodle Soup </a></li>
-<li><a href="ShrimpStirFry.html">Shrimp Stir Fry</a></li>
-<li><a href="CaliforniaRollSushi.html">California Roll Sushi </a></li>
-
-
-<li><a href="oatmeal.html">Overnight Peach Oatmeal</a></li>
-<li><a href="eggsandwich.html">Breakfast Biscuits 'N' Eggs </a></li>
-<li><a href="potatoes.html">Home Potatoes</a></li>
-<li><a href="french.html">French Toast Fingers</a></li>
-<li><a href="banana.html">Gluten-Free Banana Pancakes</a></li>
-<li><a href="zucchini.html">Zucchini Fritata</a></li>
-<li><a href="tex.html">Tex-Mex Breakfast Haystacks</a></li>
-<li><a href="crepes.html">Creamy Banana Crepes</a></li>
-<li><a href="hash.html">Southern Hash Browns and Ham Pan Bake</a></li>
-<li><a href="chocolate.html">Chocolate Lover's Pancakes</a></li>
 
 
-<li><a href="oreo.html">Oreo Truffles</a></li>
-<li><a href="cheesecake.html">Strawberry Icebox Cake </a></li>
-<li><a href="cereal.html">Chocolate Cereal Treats</a></li>
-<li><a href="icecream.html">Vegan Banana Ice Cream</a></li>
-<li><a href="shortcake.html">Strawberry Shortcake Milkshake</a></li>
-<li><a href="yogurt.html">Healthy Chocolate Chip Peanut Butter Frozen Yogurt</a></li>
-<li><a href="smores.html">Marshmallow Smores</a></li>
-<li><a href="milkshake.html">Salted Pretzel Nutella Fudge Milkshake</a></li>
-<li><a href="keto.html">Keto Chocolate Mousse</a></li>
-<li><a href="bars.html">Magic Bars</a></li>
 
-<li><a href="S&M.html">Spaghetti and Meatballs</a></li>
-<li><a href="M&C.html">Mac & Cheese </a></li>
-<li><a href="SloppyJoes.html">Sloppy Joe Slider</a></li>
-<li><a href="Beef Stroganoff.html">Beef Stroganoff</a></li>
-<li><a href="PanFriedTilapia.html">Pan Fried Tilapia</a></li>
-<li><a href="OrangeChicken.html"> Orange Chicken</a></li>
-<li><a href="Vegan.html">Vegan Mushroom Stroganoff</a></li>
-<li><a href="Alfredo.html">Fettuccini Alfredo</a></li>
-<li><a href="Rice.html">Rice and Beans</a></li>
-<li><a href="meat.html">Meat Loaf</a></li>
+  <div class="navbar">
 
+    <a href="index.html">Home</a>
 
-<li><a href="eggs.html">Bacon Cheddar Deviled Eggs</a></li>
-<li><a href="guacamole.html">Guacamole </a></li>
-<li><a href="meatballs.html">Cajun Appetizer Meatballs</a></li>
-<li><a href="Mozzarella.html">Mozzarella and Tomato Appetizer Tray</a></li>
-<li><a href="hamandcheese.html">Easy Ham and Cheese Appetizer Sandwiches</a></li>
-<li><a href="potatoskins.html">Restaurant-Style Potato Skins</a></li>
-<li><a href="sausages.html">Brown Sugar Smokies</a></li>
-<li><a href="jalapenos.html">Bacon-Wrapped Jalapeno Popperss</a></li>
-<li><a href="spinachdip.html">Hot Artichoke and Spinach Dip </a></li>
-<li><a href="wings.html">Restaurant-Style Buffalo Chicken Wings </a></li>
+    <a href="about.html">About</a>
 
-</ul>
+    <a href="breakfast.html">Breakfast</a>
 
-<script>
-function myFunction() {
-var input, filter, ul, li, a, i, txtValue;
-input = document.getElementById("myInput");
-filter = input.value.toUpperCase();
-ul = document.getElementById("myUL");
-li = ul.getElementsByTagName('li');
+    <a href="Lunch.html">Lunch</a>
 
-if(input.value.length == 0){
-ul.style.display = "none";
-return;
-}else{
-ul.style.display = "block";
-}
-// Loop through all list items, and hide those who don't match the search query
-for (i = 0; i < li.length; i++) {
-a = li[i].getElementsByTagName("a")[0];
-if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-li[i].style.display = "block";
-} else {
-li[i].style.display = "none";
-}
-}
-}
-</script>
+    <a href="Appetizers.html">Appetizers</a>
 
+    <a href="Dinner.html">Dinner</a>
 
-<h1>Broccoli Cheese Soup </h1>
+    <a href="dessert.html">Desserts</a>
 
-<picture>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a food">
 
-<img src="https://cafedelites.com/wp-content/uploads/2017/10/Cheesy-Broccoli-Cheddar-Soup-IMAGE-44.jpg "height = "300px" width= "450px" alt="MDN">
 
-</picture>
 
-<p>
+  </div>
 
-  Prep time: 15 minutes
 
-  </p>
 
-  <p>
 
-  Cook time: 50 minutes
 
-  </p>
 
-  <p>
 
-  Total time: 1 hour 5 minutes
+  <ul id="myUL">
 
-  </p>
+  <li><a href="dessert.html">Desserts</a></li>
 
+  <li><a href="lunch.html">Lunch</a></li>
 
+  <li><a href="dinner.html">Dinner</a></li>
 
-<h2>Ingredients</h2>
+  <li><a href="appetizers.html">Appetizers</a></li>
 
-<p>
+  <li><a href="breakfast.html">Breakfest</a></li>
 
-  1 tablespoon butter</p>
 
-  <p>
 
-  1/2 onion, chopped</p>
+  <li><a href="BroccoliCheeseSoup.html">Broccoli Cheddar Soup </a></li>
 
-  <p>
+  <li><a href="GrilledTomatoandCheeseSandwich.html">Grilled Tomato and Cheese Sandwich  </a></li>
 
-  1/4 cup melted butter</p>
+  <li><a href="PastawithsausagespinachcreamyGorgonzola.html">Pasta with sausage, spinach & creamy Gorgonzola</a></li>
 
-  <p>
+  <li><a href="CobbSalad.html">Cobb Salad</a></li>
 
-  1/4 cup flour</p>
+  <li><a href="PestoPastaSalad.html">Pesto Pasta Salad</a></li>
 
-  <p>
+  <li><a href="ChickenSaladWrap.html">Chicken Salad Wrap</a></li>
 
-  2 cups milk</p>
+  <li><a href="TunaSalad.html">Tuna Salad</a></li>
 
-  <p>
+  <li><a href="ChickenNoodleSoup.html">Chicken Noodle Soup </a></li>
 
-  2 cups chicken stock</p>
+  <li><a href="ShrimpStirFry.html">Shrimp Stir Fry</a></li>
 
-  <p>
+  <li><a href="CaliforniaRollSushi.html">California Roll Sushi </a></li>
 
-  1 1/2 cups coarsely chopped broccoli florets</p>
 
-  <p>
 
-  1 cup matchstick-cut carrots</p>
 
-  <p>
 
-  1 stalk celery, thinly sliced</p>
+  <li><a href="oatmeal.html">Overnight Peach Oatmeal</a></li>
 
-  <p>
+  <li><a href="eggsandwich.html">Breakfast Biscuits 'N' Eggs </a></li>
 
-  2  1/2 cups shredded sharp Cheddar cheese</p>
+  <li><a href="potatoes.html">Home Potatoes</a></li>
 
-  <p>
+  <li><a href="french.html">French Toast Fingers</a></li>
 
-  salt and ground black pepper to taste</p>
+  <li><a href="banana.html">Gluten-Free Banana Pancakes</a></li>
 
+  <li><a href="zucchini.html">Zucchini Fritata</a></li>
 
+  <li><a href="tex.html">Tex-Mex Breakfast Haystacks</a></li>
 
+  <li><a href="crepes.html">Creamy Banana Crepes</a></li>
 
+  <li><a href="hash.html">Southern Hash Browns and Ham Pan Bake</a></li>
 
+  <li><a href="chocolate.html">Chocolate Lover's Pancakes</a></li>
 
 
-<h2>
 
-  Instructions
 
-  </h2>
 
-<p> 1. Melt 1 tablespoon butter in a skillet over medium-high heat. Saute onion in hot butter until translucent, about 5 minutes. Set aside.
+  <li><a href="oreo.html">Oreo Truffles</a></li>
 
-</p>
+  <li><a href="cheesecake.html">Strawberry Icebox Cake </a></li>
 
-<p>
+  <li><a href="cereal.html">Chocolate Cereal Treats</a></li>
 
-  2.Whisk 1/4 cup melted butter and flour together in a large saucepan over medium-low heat; cook until flour loses it's granular texture, adding 1 to 2 tablespoons of milk if necessary to keep the flour from burning, 3 to 4 minutes.
+  <li><a href="icecream.html">Vegan Banana Ice Cream</a></li>
 
-</p>
+  <li><a href="shortcake.html">Strawberry Shortcake Milkshake</a></li>
 
-<p>
+  <li><a href="yogurt.html">Healthy Chocolate Chip Peanut Butter Frozen Yogurt</a></li>
 
-  3.Gradually pour milk into flour mixture while whisking constantly. Stir chicken stock into milk mixture. Bring to a simmer; cook until flour taste is gone and mixture is thickened, about 20 minutes. Add broccoli, carrots, sauteed onion, and celery; simmer until vegetables are tender, about 20 minutes.
+  <li><a href="smores.html">Marshmallow Smores</a></li>
 
-</p>
+  <li><a href="milkshake.html">Salted Pretzel Nutella Fudge Milkshake</a></li>
 
-  <p>
+  <li><a href="keto.html">Keto Chocolate Mousse</a></li>
 
-    4. Stir Cheddar cheese into vegetable mixture until cheese melts. Season with salt and pepper to taste.
+  <li><a href="bars.html">Magic Bars</a></li>
 
-</p>
 
 
+  <li><a href="S&M.html">Spaghetti and Meatballs</a></li>
 
-<h2>
+  <li><a href="M&C.html">Mac & Cheese </a></li>
 
-  Nutrition</h2>
+  <li><a href="SloppyJoes.html">Sloppy Joe Slider</a></li>
 
-<p>
+  <li><a href="Beef Stroganoff.html">Beef Stroganoff</a></li>
 
-  Servings Per Recipe: 8</p>
+  <li><a href="PanFriedTilapia.html">Pan Fried Tilapia</a></li>
 
-    <p>
+  <li><a href="OrangeChicken.html"> Orange Chicken</a></li>
 
-Calories: 304</p>
+  <li><a href="Vegan.html">Vegan Mushroom Stroganoff</a></li>
 
-  <p>
+  <li><a href="Alfredo.html">Fettuccini Alfredo</a></li>
 
-% Daily Value *</p>
+  <li><a href="Rice.html">Rice and Beans</a></li>
 
-  <p>
+  <li><a href="meat.html">Meat Loaf</a></li>
 
-total fat: 23g 35 %</p>
 
-  <p>
 
-saturated fat: 14.4g</p>
 
-  <p>
 
-cholesterol: 70mg 23 %</p>
+  <li><a href="eggs.html">Bacon Cheddar Deviled Eggs</a></li>
 
-  <p>
+  <li><a href="guacamole.html">Guacamole </a></li>
 
-sodium: 624mg 25 %</p>
+  <li><a href="meatballs.html">Cajun Appetizer Meatballs</a></li>
 
-  <p>
+  <li><a href="Mozzarella.html">Mozzarella and Tomato Appetizer Tray</a></li>
 
-potassium: 277mg 8 %</p>
+  <li><a href="hamandcheese.html">Easy Ham and Cheese Appetizer Sandwiches</a></li>
 
-  <p>
+  <li><a href="potatoskins.html">Restaurant-Style Potato Skins</a></li>
 
-carbohydrates: 10.7g 3 %</p>
+  <li><a href="sausages.html">Brown Sugar Smokies</a></li>
 
-  <p>
+  <li><a href="jalapenos.html">Bacon-Wrapped Jalapeno Popperss</a></li>
 
-fiber: 1.3g 5 %</p>
+  <li><a href="spinachdip.html">Hot Artichoke and Spinach Dip </a></li>
 
-  <p>
+  <li><a href="wings.html">Restaurant-Style Buffalo Chicken Wings </a></li>
 
-sugar: 5g</p>
 
-  <p>
 
-protein: 14.3g 29 %</p>
+  </ul>
 
-  <p>
 
-vitamin a iu: 3447IU</p>
 
-  <p>
+  <script>
 
-niacin equivalents: 3mg</p>
+  function myFunction() {
 
-  <p>
+  var input, filter, ul, li, a, i, txtValue;
 
-vitamin b6: 0mg</p>
+  input = document.getElementById("myInput");
 
-  <p>
+  filter = input.value.toUpperCase();
 
-vitamin c: 18mg</p>
+  ul = document.getElementById("myUL");
 
-  <p>
+  li = ul.getElementsByTagName('li');
 
-folate: 36mcg</p>
 
-  <p>
 
-calcium: 403mg</p>
+  if(input.value.length == 0){
 
-  <p>
+  ul.style.display = "none";
 
-iron: 1mg</p>
+  return;
 
-  <p>
+  }else{
 
-magnesium: 27mg</p>
+  ul.style.display = "block";
 
-  <p>
+  }
 
-thiamin: 0mg</p>
+  // Loop through all list items, and hide those who don't match the search query
 
-  <p>
+  for (i = 0; i < li.length; i++) {
 
-*</p>
+  a = li[i].getElementsByTagName("a")[0];
 
-  <p>
+  if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
 
-Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.</p>
+  li[i].style.display = "block";
 
+  } else {
 
+  li[i].style.display = "none";
 
+  }
 
+  }
 
-<h3>
+  }
 
-  Click <a href=" https://www.allrecipes.com/recipe/235874/copycat-panera-broccoli-cheddar-soup/  ">here</a> for more information.
+  </script>
 
-</h3>
 
 
+<div class="hero-image"></div>
 
-<h3>
+<h1><center><b><font size="10"> Broccoli Cheese Soup</font></b> </center></h1>
+<table style="width:50%" cellpadding="0" border="0" align="center" cellspacing="0">
 
-  Or watch this video
+<tr>
+<td>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h1>Ingredients:</h1>
+      <ul>
+        <li> 1 tablespoon butter<li>
+        <li> 1/2 onion, chopped</li>
+        <li>1/4 cup melted butter</li>
+        <li>1/4 cup flour</li>
+        <li>2 cups milk</li>
+        <li>2 cups chicken stock</li>
+        <li>1 1/2 cups coarsely chopped broccoli florets</li>
+        <li>1 cup matchstick-cut carrots</li>
+        <li>1 stalk celery, thinly sliced</li>
+        <li>2  1/2 cups shredded sharp Cheddar cheese</li>
+        <li>salt and ground black pepper to taste</li>
 
-  </h3>
+      </ul>
+    </div>
+  </div>
+</td>
 
+<td>
+  <div class="column">
+    <div class="card">
+      <h1><center>Instructions</center></h1>
+      <iframe width="400" height="350" src="https://players.brightcove.net/1033249144001/HyUr5pA17_default/index.html?videoId=4387116251001" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <ol>
+        <li>1. Melt 1 tablespoon butter in a skillet over medium-high heat. Saute onion in hot butter until translucent, about 5 minutes. Set aside.</li>
+        <li> 2.Whisk 1/4 cup melted butter and flour together in a large saucepan over medium-low heat; cook until flour loses it's granular texture, adding 1 to 2 tablespoons of milk if necessary to keep the flour from burning, 3 to 4 minutes.</li>
+      <li>3.Gradually pour milk into flour mixture while whisking constantly. Stir chicken stock into milk mixture. Bring to a simmer; cook until flour taste is gone and mixture is thickened, about 20 minutes. Add broccoli, carrots, sauteed onion, and celery; simmer until vegetables are tender, about 20 minutes.</li>
+        <li>4. Stir Cheddar cheese into vegetable mixture until cheese melts. Season with salt and pepper to taste.</li>
+      </ol>
+      <p>Click <a href="https://www.allrecipes.com/recipe/235874/copycat-panera-broccoli-cheddar-soup/  ">here</a> for more information.</p>
+    </div>
+  </div>
+</td>
+</tr>
 
+<tr>
+<td>
+  <div class="column">
+    <div class="card">
+      <h1> <center>Total Time: 1 Hour 5 mins. </center> </h1>
+      <h1><center>Nutrition</center></h1>
+      <ul>
+        <li>  Per Serving</li>
+        <ul>
+      <li>Calories: 304</li>
+      <li>total fat: 23g</li>
+      <li>protein: 14.3g </li>
+      <li>cholesterol: 70mg</li>
+      <li>sodium: 624mg</li>
+      <li>sugar: 5g</li>
+      </ul>
+    </div>
+  </div>
+</td>
+</tr>
 
-  <iframe src='https://players.brightcove.net/1033249144001/HyUr5pA17_default/index.html?videoId=4387116251001' allowfullscreen frameborder=0></iframe>
+</table>
 </body>
 </html>
