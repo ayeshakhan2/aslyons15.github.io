@@ -146,6 +146,43 @@ table {
 }
 
 
+* {
+box-sizing: border-box;
+}
+
+#myInput {
+background-image: url('/css/searchicon.png');
+background-position: 10px 12px;
+background-repeat: no-repeat;
+width: 25%;
+font-size: 16px;
+padding: 12px 20px 12px 40px;
+border: 1px solid #ddd;
+margin-bottom: 12px;
+}
+#myUL li{
+display:none;
+}
+#myUL {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+#myUL li a {
+border: 1px solid #ddd;
+margin-top: -1px; /* Prevent double borders */
+background-color: #f6f6f6;
+padding: 12px;
+text-decoration: none;
+font-size: 18px;
+color: black;
+display: block
+}
+
+#myUL li a:hover:not(.header) {
+background-color: #eee;
+}
 
 </style>
 
@@ -168,6 +205,103 @@ table {
   <input type="text" placeholder="Search..">
 
 </div>
+
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a food">
+
+<ul id="myUL">
+<li><a href="dessert.html">Desserts</a></li>
+<li><a href="lunch.html">Lunch</a></li>
+<li><a href="dinner.html">Dinner</a></li>
+<li><a href="appetizers.html">Appetizers</a></li>
+<li><a href="breakfast.html">Breakfest</a></li>
+
+<li><a href="BroccoliCheeseSoup.html">Broccoli Cheddar Soup </a></li>
+<li><a href="GrilledTomatoandCheeseSandwich.html">Grilled Tomato and Cheese Sandwich  </a></li>
+<li><a href="PastawithsausagespinachcreamyGorgonzola.html">Pasta with sausage, spinach & creamy Gorgonzola</a></li>
+<li><a href="CobbSalad.html">Cobb Salad</a></li>
+<li><a href="PestoPastaSalad.html">Pesto Pasta Salad</a></li>
+<li><a href="ChickenSaladWrap.html">Chicken Salad Wrap</a></li>
+<li><a href="TunaSalad.html">Tuna Salad</a></li>
+<li><a href="ChickenNoodleSoup.html">Chicken Noodle Soup </a></li>
+<li><a href="ShrimpStirFry.html">Shrimp Stir Fry</a></li>
+<li><a href="CaliforniaRollSushi.html">California Roll Sushi </a></li>
+
+
+<li><a href="oatmeal.html">Overnight Peach Oatmeal</a></li>
+<li><a href="eggsandwich.html">Breakfast Biscuits 'N' Eggs </a></li>
+<li><a href="potatoes.html">Home Potatoes</a></li>
+<li><a href="french.html">French Toast Fingers</a></li>
+<li><a href="banana.html">Gluten-Free Banana Pancakes</a></li>
+<li><a href="zucchini.html">Zucchini Fritata</a></li>
+<li><a href="tex.html">Tex-Mex Breakfast Haystacks</a></li>
+<li><a href="crepes.html">Creamy Banana Crepes</a></li>
+<li><a href="hash.html">Southern Hash Browns and Ham Pan Bake</a></li>
+<li><a href="chocolate.html">Chocolate Lover's Pancakes</a></li>
+
+
+<li><a href="oreo.html">Oreo Truffles</a></li>
+<li><a href="cheesecake.html">Strawberry Icebox Cake </a></li>
+<li><a href="cereal.html">Chocolate Cereal Treats</a></li>
+<li><a href="icecream.html">Vegan Banana Ice Cream</a></li>
+<li><a href="shortcake.html">Strawberry Shortcake Milkshake</a></li>
+<li><a href="yogurt.html">Healthy Chocolate Chip Peanut Butter Frozen Yogurt</a></li>
+<li><a href="smores.html">Marshmallow Smores</a></li>
+<li><a href="milkshake.html">Salted Pretzel Nutella Fudge Milkshake</a></li>
+<li><a href="keto.html">Keto Chocolate Mousse</a></li>
+<li><a href="bars.html">Magic Bars</a></li>
+
+<li><a href="S&M.html">Spaghetti and Meatballs</a></li>
+<li><a href="M&C.html">Mac & Cheese </a></li>
+<li><a href="SloppyJoes.html">Sloppy Joe Slider</a></li>
+<li><a href="Beef Stroganoff.html">Beef Stroganoff</a></li>
+<li><a href="PanFriedTilapia.html">Pan Fried Tilapia</a></li>
+<li><a href="OrangeChicken.html"> Orange Chicken</a></li>
+<li><a href="Vegan.html">Vegan Mushroom Stroganoff</a></li>
+<li><a href="Alfredo.html">Fettuccini Alfredo</a></li>
+<li><a href="Rice.html">Rice and Beans</a></li>
+<li><a href="meat.html">Meat Loaf</a></li>
+
+
+<li><a href="eggs.html">Bacon Cheddar Deviled Eggs</a></li>
+<li><a href="guacamole.html">Guacamole </a></li>
+<li><a href="meatballs.html">Cajun Appetizer Meatballs</a></li>
+<li><a href="Mozzarella.html">Mozzarella and Tomato Appetizer Tray</a></li>
+<li><a href="hamandcheese.html">Easy Ham and Cheese Appetizer Sandwiches</a></li>
+<li><a href="potatoskins.html">Restaurant-Style Potato Skins</a></li>
+<li><a href="sausages.html">Brown Sugar Smokies</a></li>
+<li><a href="jalapenos.html">Bacon-Wrapped Jalapeno Popperss</a></li>
+<li><a href="spinachdip.html">Hot Artichoke and Spinach Dip </a></li>
+<li><a href="wings.html">Restaurant-Style Buffalo Chicken Wings </a></li>
+
+</ul>
+
+<script>
+function myFunction() {
+var input, filter, ul, li, a, i, txtValue;
+input = document.getElementById("myInput");
+filter = input.value.toUpperCase();
+ul = document.getElementById("myUL");
+li = ul.getElementsByTagName('li');
+
+if(input.value.length == 0){
+ul.style.display = "none";
+return;
+}else{
+ul.style.display = "block";
+}
+// Loop through all list items, and hide those who don't match the search query
+for (i = 0; i < li.length; i++) {
+a = li[i].getElementsByTagName("a")[0];
+if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+li[i].style.display = "block";
+} else {
+li[i].style.display = "none";
+}
+}
+}
+</script>
+
 
 <h1>Pesto Pasta Salad </h1>
 <picture>
