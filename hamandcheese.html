@@ -7,8 +7,8 @@
 
 
 <head>
+  <title> Easy Ham and Cheese Appetizer Sandwiches </title>
 
-  <title>ham and cheese  </title>
 
 
   <meta charset="utf-8">
@@ -185,197 +185,260 @@ display: block
 background-color: #eee;
 }
 
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  .hero-image {
+    background-image:  url("hamandcheese.jpg");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 100%;
+    padding: 0 90px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 90px;
+    background-color: #f1f1f1;
+  }
+
+h1{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif    ;
+}
+li, p {
+  font-family:"Courier New", Courier, monospace;
+}
+
 </style>
-
-
-
 </head>
-
-<body >
-
+<body>
 
 
-<div class="navbar">
-  <img src="h.jpg" alt="logo" style="width:130px ; height:125px">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="breakfast.html">Breakfast</a>
-  <a href="Lunch.html">Lunch</a>
-  <a href="Appetizers.html">Appetizers</a>
-  <a href="Dinner.html">Dinner</a>
-  <a href="dessert.html">Desserts</a>
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a food">
+  <div class="navbar">
+    <img src="h.jpg" alt="logo" style="width:130px ; height:125px">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="breakfast.html">Breakfast</a>
+    <a href="Lunch.html">Lunch</a>
+    <a href="Appetizers.html">Appetizers</a>
+    <a href="Dinner.html">Dinner</a>
+    <a href="dessert.html">Desserts</a>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a food">
 
-</div>
-
-
-
-<ul id="myUL">
-<li><a href="dessert.html">Desserts</a></li>
-<li><a href="lunch.html">Lunch</a></li>
-<li><a href="dinner.html">Dinner</a></li>
-<li><a href="appetizers.html">Appetizers</a></li>
-<li><a href="breakfast.html">Breakfest</a></li>
-
-<li><a href="BroccoliCheeseSoup.html">Broccoli Cheddar Soup </a></li>
-<li><a href="GrilledTomatoandCheeseSandwich.html">Grilled Tomato and Cheese Sandwich  </a></li>
-<li><a href="PastawithsausagespinachcreamyGorgonzola.html">Pasta with sausage, spinach & creamy Gorgonzola</a></li>
-<li><a href="CobbSalad.html">Cobb Salad</a></li>
-<li><a href="PestoPastaSalad.html">Pesto Pasta Salad</a></li>
-<li><a href="ChickenSaladWrap.html">Chicken Salad Wrap</a></li>
-<li><a href="TunaSalad.html">Tuna Salad</a></li>
-<li><a href="ChickenNoodleSoup.html">Chicken Noodle Soup </a></li>
-<li><a href="ShrimpStirFry.html">Shrimp Stir Fry</a></li>
-<li><a href="CaliforniaRollSushi.html">California Roll Sushi </a></li>
-
-
-<li><a href="oatmeal.html">Overnight Peach Oatmeal</a></li>
-<li><a href="eggsandwich.html">Breakfast Biscuits 'N' Eggs </a></li>
-<li><a href="potatoes.html">Home Potatoes</a></li>
-<li><a href="french.html">French Toast Fingers</a></li>
-<li><a href="banana.html">Gluten-Free Banana Pancakes</a></li>
-<li><a href="zucchini.html">Zucchini Fritata</a></li>
-<li><a href="tex.html">Tex-Mex Breakfast Haystacks</a></li>
-<li><a href="crepes.html">Creamy Banana Crepes</a></li>
-<li><a href="hash.html">Southern Hash Browns and Ham Pan Bake</a></li>
-<li><a href="chocolate.html">Chocolate Lover's Pancakes</a></li>
-
-
-<li><a href="oreo.html">Oreo Truffles</a></li>
-<li><a href="cheesecake.html">Strawberry Icebox Cake </a></li>
-<li><a href="cereal.html">Chocolate Cereal Treats</a></li>
-<li><a href="icecream.html">Vegan Banana Ice Cream</a></li>
-<li><a href="shortcake.html">Strawberry Shortcake Milkshake</a></li>
-<li><a href="yogurt.html">Healthy Chocolate Chip Peanut Butter Frozen Yogurt</a></li>
-<li><a href="smores.html">Marshmallow Smores</a></li>
-<li><a href="milkshake.html">Salted Pretzel Nutella Fudge Milkshake</a></li>
-<li><a href="keto.html">Keto Chocolate Mousse</a></li>
-<li><a href="bars.html">Magic Bars</a></li>
-
-<li><a href="S&M.html">Spaghetti and Meatballs</a></li>
-<li><a href="M&C.html">Mac & Cheese </a></li>
-<li><a href="SloppyJoes.html">Sloppy Joe Slider</a></li>
-<li><a href="Beef Stroganoff.html">Beef Stroganoff</a></li>
-<li><a href="PanFriedTilapia.html">Pan Fried Tilapia</a></li>
-<li><a href="OrangeChicken.html"> Orange Chicken</a></li>
-<li><a href="Vegan.html">Vegan Mushroom Stroganoff</a></li>
-<li><a href="Alfredo.html">Fettuccini Alfredo</a></li>
-<li><a href="Rice.html">Rice and Beans</a></li>
-<li><a href="meat.html">Meat Loaf</a></li>
-
-
-<li><a href="eggs.html">Bacon Cheddar Deviled Eggs</a></li>
-<li><a href="guacamole.html">Guacamole </a></li>
-<li><a href="meatballs.html">Cajun Appetizer Meatballs</a></li>
-<li><a href="Mozzarella.html">Mozzarella and Tomato Appetizer Tray</a></li>
-<li><a href="hamandcheese.html">Easy Ham and Cheese Appetizer Sandwiches</a></li>
-<li><a href="potatoskins.html">Restaurant-Style Potato Skins</a></li>
-<li><a href="sausages.html">Brown Sugar Smokies</a></li>
-<li><a href="jalapenos.html">Bacon-Wrapped Jalapeno Popperss</a></li>
-<li><a href="spinachdip.html">Hot Artichoke and Spinach Dip </a></li>
-<li><a href="wings.html">Restaurant-Style Buffalo Chicken Wings </a></li>
-
-</ul>
-
-<script>
-function myFunction() {
-var input, filter, ul, li, a, i, txtValue;
-input = document.getElementById("myInput");
-filter = input.value.toUpperCase();
-ul = document.getElementById("myUL");
-li = ul.getElementsByTagName('li');
-
-if(input.value.length == 0){
-ul.style.display = "none";
-return;
-}else{
-ul.style.display = "block";
-}
-// Loop through all list items, and hide those who don't match the search query
-for (i = 0; i < li.length; i++) {
-a = li[i].getElementsByTagName("a")[0];
-if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-li[i].style.display = "block";
-} else {
-li[i].style.display = "none";
-}
-}
-}
-</script>
-
-
-
-<p>
-
-<center> <h1> Easy Ham and Cheese Appetizer Sandwiches </h1> </center>
-
-</p>
-
-<img src="hamandcheese.jpg" alt="Avatar" style="width:450px;height:300px;">
-
-<h3> Total time: 30 minutes </h3>
-
-<h2> Ingredients: <h2>
-
-<h4> 1 cup butter, softened </h4>
-
-<h4> 3 tablespoons poppy seeds </h4>
-
-<h4> 1 onion, grated </h4>
-
-<h4> 1 tablespoon Worcestershire sauce </h4>
-
-<h4> 2 tablespoons prepared Dijon-style mustard </h4>
-
-<h4> 2 (12 ounce) packages white party rolls </h4>
-
-<h4> 1/2 pound chopped cooked ham </h4>
-
-<h4> 5 ounces shredded Swiss cheese </h4>
-
-<h2> Instructions: </h2>
-
-<h4> 1. Preheat oven to 350 degrees F (175 degrees C). </h4>
-
-<h4> 2. In a medium bowl, mix together butter, poppy seeds, onion, Worcestershire sauce and prepared Dijon-style mustard. </h4>
-
-<h4> 3. Slice rolls in half horizontally and set aside tops. Spread bottoms with the butter mixture. Top with ham and Swiss cheese. Replace tops.</h4>
-
-<h4> 4. Arrange rolls in a single layer in a medium baking dish. Bake in the preheated oven 10 to 12 minutes, until rolls are lightly browned and cheese is melted.</h4>
-
-<h2> Nutrition facts: </h2>
-
-<h4> Per Serving: 416 calories; 27.2 g fat; 31.4 g carbohydrates; 12.1 g protein; 63 mg cholesterol; 748 mg sodium. </h4>
+  </div>
 
 
 
 
+  <ul id="myUL">
+  <li><a href="dessert.html">Desserts</a></li>
+  <li><a href="lunch.html">Lunch</a></li>
+  <li><a href="dinner.html">Dinner</a></li>
+  <li><a href="appetizers.html">Appetizers</a></li>
+  <li><a href="breakfast.html">Breakfest</a></li>
 
-<p>
-
-</p>
-
-<div>
-
-<center>  </center>
-
-<p>
-
-<center> <img src=""> </center>
-
-</p>
-
-<center> <h2>  </h2> </center>
-
-<p>
-
-<center> For more information <a href = "https://www.allrecipes.com/recipe/26780/easy-ham-and-cheese-appetizer-sandwiches/?internalSource=recipe%20hub&referringContentType=Search&clickId=cardslot%2080"> Click </a> here. </center>
-
-</p>
+  <li><a href="BroccoliCheeseSoup.html">Broccoli Cheddar Soup </a></li>
+  <li><a href="GrilledTomatoandCheeseSandwich.html">Grilled Tomato and Cheese Sandwich  </a></li>
+  <li><a href="PastawithsausagespinachcreamyGorgonzola.html">Pasta with sausage, spinach & creamy Gorgonzola</a></li>
+  <li><a href="CobbSalad.html">Cobb Salad</a></li>
+  <li><a href="PestoPastaSalad.html">Pesto Pasta Salad</a></li>
+  <li><a href="ChickenSaladWrap.html">Chicken Salad Wrap</a></li>
+  <li><a href="TunaSalad.html">Tuna Salad</a></li>
+  <li><a href="ChickenNoodleSoup.html">Chicken Noodle Soup </a></li>
+  <li><a href="ShrimpStirFry.html">Shrimp Stir Fry</a></li>
+  <li><a href="CaliforniaRollSushi.html">California Roll Sushi </a></li>
 
 
+  <li><a href="oatmeal.html">Overnight Peach Oatmeal</a></li>
+  <li><a href="eggsandwich.html">Breakfast Biscuits 'N' Eggs </a></li>
+  <li><a href="potatoes.html">Home Potatoes</a></li>
+  <li><a href="french.html">French Toast Fingers</a></li>
+  <li><a href="banana.html">Gluten-Free Banana Pancakes</a></li>
+  <li><a href="zucchini.html">Zucchini Fritata</a></li>
+  <li><a href="tex.html">Tex-Mex Breakfast Haystacks</a></li>
+  <li><a href="crepes.html">Creamy Banana Crepes</a></li>
+  <li><a href="hash.html">Southern Hash Browns and Ham Pan Bake</a></li>
+  <li><a href="chocolate.html">Chocolate Lover's Pancakes</a></li>
 
 
+  <li><a href="oreo.html">Oreo Truffles</a></li>
+  <li><a href="cheesecake.html">Strawberry Icebox Cake </a></li>
+  <li><a href="cereal.html">Chocolate Cereal Treats</a></li>
+  <li><a href="icecream.html">Vegan Banana Ice Cream</a></li>
+  <li><a href="shortcake.html">Strawberry Shortcake Milkshake</a></li>
+  <li><a href="yogurt.html">Healthy Chocolate Chip Peanut Butter Frozen Yogurt</a></li>
+  <li><a href="smores.html">Marshmallow Smores</a></li>
+  <li><a href="milkshake.html">Salted Pretzel Nutella Fudge Milkshake</a></li>
+  <li><a href="keto.html">Keto Chocolate Mousse</a></li>
+  <li><a href="bars.html">Magic Bars</a></li>
 
+  <li><a href="S&M.html">Spaghetti and Meatballs</a></li>
+  <li><a href="M&C.html">Mac & Cheese </a></li>
+  <li><a href="SloppyJoes.html">Sloppy Joe Slider</a></li>
+  <li><a href="Beef Stroganoff.html">Beef Stroganoff</a></li>
+  <li><a href="PanFriedTilapia.html">Pan Fried Tilapia</a></li>
+  <li><a href="OrangeChicken.html"> Orange Chicken</a></li>
+  <li><a href="Vegan.html">Vegan Mushroom Stroganoff</a></li>
+  <li><a href="Alfredo.html">Fettuccini Alfredo</a></li>
+  <li><a href="Rice.html">Rice and Beans</a></li>
+  <li><a href="meat.html">Meat Loaf</a></li>
+
+
+  <li><a href="eggs.html">Bacon Cheddar Deviled Eggs</a></li>
+  <li><a href="guacamole.html">Guacamole </a></li>
+  <li><a href="meatballs.html">Cajun Appetizer Meatballs</a></li>
+  <li><a href="Mozzarella.html">Mozzarella and Tomato Appetizer Tray</a></li>
+  <li><a href="hamandcheese.html">Easy Ham and Cheese Appetizer Sandwiches</a></li>
+  <li><a href="potatoskins.html">Restaurant-Style Potato Skins</a></li>
+  <li><a href="sausages.html">Brown Sugar Smokies</a></li>
+  <li><a href="jalapenos.html">Bacon-Wrapped Jalapeno Popperss</a></li>
+  <li><a href="spinachdip.html">Hot Artichoke and Spinach Dip </a></li>
+  <li><a href="wings.html">Restaurant-Style Buffalo Chicken Wings </a></li>
+
+  </ul>
+
+  <script>
+  function myFunction() {
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  if(input.value.length == 0){
+  ul.style.display = "none";
+  return;
+  }else{
+  ul.style.display = "block";
+  }
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+  a = li[i].getElementsByTagName("a")[0];
+  if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+  li[i].style.display = "block";
+  } else {
+  li[i].style.display = "none";
+  }
+  }
+  }
+  </script>
+
+
+<div class="hero-image"></div>
+
+<h1><center><b><font size="10"> Easy Ham and Cheese Appetizer Sandwiches </font></b> </center></h1>
+<table style="width:50%" cellpadding="0" border="0" align="center" cellspacing="0">
+
+<tr>
+<td>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h1>Ingredients:</h1>
+      <ul>
+        <li>1 cup butter, softened</li>
+        <li>3 tablespoons poppy seeds</li>
+        <li>1 onion, grated</li>
+        <li>1 tablespoon Worcestershire sauce</li>
+        <li>2 tablespoons prepared Dijon-style mustard</li>
+        <li>2 (12 ounce) packages white party rolls</li>
+        <li>1/2 pound chopped cooked ham</li>
+        <li>5 ounces shredded Swiss cheese</li>
+      </ul>
+    </div>
+  </div>
+</td>
+
+<td>
+  <div class="column">
+    <div class="card">
+      <h1><center>Instructions</center></h1>
+      <ol>
+        <li>Preheat oven to 350 degrees F (175 degrees C).</li>
+        <li>In a medium bowl, mix together butter, poppy seeds, onion, Worcestershire sauce and prepared Dijon-style mustard.</li>
+        <li>Slice rolls in half horizontally and set aside tops. Spread bottoms with the butter mixture. Top with ham and Swiss cheese. Replace tops.</li>
+        <li>Arrange rolls in a single layer in a medium baking dish. Bake in the preheated oven 10 to 12 minutes, until rolls are lightly browned and cheese is melted.</li>
+        <li>Enjoy!</li>
+      </ol>
+      <p>Click <a href="https://www.allrecipes.com/recipe/26780/easy-ham-and-cheese-appetizer-sandwiches/?internalSource=recipe%20hub&referringContentType=Search&clickId=cardslot%2080">here</a> for more information.</p>
+    </div>
+  </div>
+</td>
+</tr>
+
+<tr>
+<td>
+  <div class="column">
+    <div class="card">
+      <h1> <center>Total Time:   30 Minutes </center> </h1>
+      <h1><center>Nutrition</center></h1>
+      <ul>
+        <li>  Per Serving</li>
+        <ul>
+      <li>416 calories</li>
+      <li>27.2 g fat</li>
+      <li>31.4 g carbohydrates</li>
+      <li>12.1 g protein</li>
+      <li>63 mg cholesterol</li>
+      <li>748 mg sodium</li>
+      </ul>
+    </div>
+  </div>
+</td>
+</tr>
+
+</table>
 </body>
 </html>
