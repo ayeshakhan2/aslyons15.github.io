@@ -22,11 +22,9 @@
 
 
 <style>
-
 * {
 box-sizing: border-box;
 }
-
 #myInput {
 background-image: url('/css/searchicon.png');
 background-position: 10px 12px;
@@ -45,7 +43,6 @@ list-style-type: none;
 padding: 0;
 margin: 0;
 }
-
 #myUL li a {
 border: 1px solid #ddd;
 margin-top: -1px; /* Prevent double borders */
@@ -56,130 +53,112 @@ font-size: 18px;
 color: black;
 display: block
 }
-
 #myUL li a:hover:not(.header) {
 background-color: #eee;
 }
-
-
-
 body {margin:0;}
-
-
-
 .navbar {
-
-
-
   overflow: hidden;
-
-
-
   background-color: #333;
-
-
-
   position: fixed;
-
-
-
   top: 0;
-
-
-
   width: 100%;
-
-
-
   z-index:1; /*Add this*/
-
-
-
 }
-
-
-
 .navbar a {
-
-
-
   float: left;
-
-
-
   display: block;
-
-
-
   color: #f2f2f2;
-
-
-
   text-align: center;
-
-
-
   padding: 14px 16px;
-
-
-
   text-decoration: none;
-
-
-
   font-size: 17px;
-
-
-
 }
-
-
-
 .navbar a:hover {
-
-
-
   background: #ddd;
-
-
-
   color: black;
-
-
-
 }
-
-
-
 .main {
-
-
-
   padding: 16px;
-
-
-
   margin-top: 30px;
-
-
-
   height: 1500px; /* Used in this example to enable scrolling */
-
-
-
 }
 
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+  .hero-image {
+    background-image:  url("mac&cheese.jpg");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 100%;
+    padding: 0 90px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 90px;
+    background-color: #f1f1f1;
+  }
+
+h1{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+}
+li, p {
+  font-family:"Courier New", Courier, monospace;
+}
 
 </style>
-
-
-
 </head>
-
-<body >
-
-
+<body>
 
 <div class="navbar">
   <img src="h.jpg" alt="logo" style="width:130px ; height:125px">
@@ -270,7 +249,6 @@ input = document.getElementById("myInput");
 filter = input.value.toUpperCase();
 ul = document.getElementById("myUL");
 li = ul.getElementsByTagName('li');
-
 if(input.value.length == 0){
 ul.style.display = "none";
 return;
@@ -291,72 +269,64 @@ li[i].style.display = "none";
 
 
 
-<h1><center>Mac & Cheese</center></h1>
+<div class="hero-image"></div>
 
-<center><img src="mac&cheese.jpg"
+<h1><center><b><font size="10">Mac & Cheese</font></b> </center></h1>
+<table style="width:50%" cellpadding="0" border="0" align="center" cellspacing="0">
 
-style="width:400px;height:300px;"class="center"></center>
+<tr>
+<td>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h1>Ingredients:</h1>
+      <ul>
 
-<h2><p style="font-size:100%;">Total Time</p></h2>
+      <li>5 cups milk</li>
+      <li>1 lb elbow macaroni, dry</li>
+      <li>2 cups shredded cheddar cheese</li>
+      </ul>
+    </div>
+  </div>
+</td>
 
+<td>
+  <div class="column">
+    <div class="card">
+      <h1><center>Instructions</center></h1>
+      <ol>
+        <li>In a large pot, bring the milk to a boil.</li>
+        <li>Add the pasta and stir constantly until the pasta is cooked, about 10 minutes.</li>
+        <li>Turn off the heat, then add the cheddar. Stir until the cheese is melted and the pasta is evenly coated.</li>
+        <li>Enjoy!</li>
+      </ol>
 
+      <p>Click <a href="">here</a> for more information.</p>
+    </div>
+  </div>
+</td>
+</tr>
 
-Under 30 minutes
+<tr>
+<td>
+  <div class="column">
+    <div class="card">
+      <h1> <center>Total Time: Under 30 minutes </center> </h1>
+      <h1><center>Nutrition</center></h1>
+        <ul>
+        <li>Calories 827</li>
+        <li>Fat 29g</li>
+        <li>Carbs 100g</li>
+        <li>Fiber 3g</li>
+        <li>Sugar 18g</li>
+        <li>Protein 39g</li>
 
-<h2><p style="font-size:100%;">Ingredients</p></h2>
+      </ul>
+    </div>
+  </div>
+</td>
+</tr>
 
-<ul>
-
-
-
-<li>5 cups milk</li>
-
-<li>1 lb elbow macaroni, dry</li>
-
-<li>2 cups shredded cheddar cheese</li>
-
-</ul>
-
-</div>
-
-
-
-<h2>Instrutions</h2>
-
-
-
-<ol>
-
-  <li>In a large pot, bring the milk to a boil.</li>
-
-  <li>Add the pasta and stir constantly until the pasta is cooked, about 10 minutes.</li>
-
-  <li>Turn off the heat, then add the cheddar. Stir until the cheese is melted and the pasta is evenly coated.</li>
-
-  <li>Enjoy!</li>
-
-</ol>
-
-
-
-<h2><p>Nutrition Facts</p></h2>
-
-<ul>
-
-<li>Calories 827</li>
-
-<li>Fat 29g</li>
-
-<li>Carbs 100g</li>
-
-<li>Fiber 3g</li>
-
-<li>Sugar 18g</li>
-
-<li>Protein 39g</li>
-
-
-
-
+</table>
 </body>
 </html>
