@@ -1,17 +1,12 @@
+
 <!DOCTYPE html>
 
-
-
-<html lang="en">
-
-
-
-<head>
+<html>
 
 
   <title> Pesto Pasta Salad </title>
-  <meta charset="utf-8">
 
+  <meta charset="utf-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -19,9 +14,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-
 <style>
+
+
 
 
 
@@ -30,7 +25,15 @@ body {margin:0;}
 
 
 
+
+
+
+
 .navbar {
+
+
+
+
 
 
 
@@ -38,7 +41,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   background-color: #333;
+
+
+
+
 
 
 
@@ -46,7 +57,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   top: 0;
+
+
+
+
 
 
 
@@ -54,11 +73,23 @@ body {margin:0;}
 
 
 
+
+
+
+
   z-index:1; /*Add this*/
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -66,7 +97,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   float: left;
+
+
+
+
 
 
 
@@ -74,7 +113,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   color: #f2f2f2;
+
+
+
+
 
 
 
@@ -82,7 +129,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   padding: 14px 16px;
+
+
+
+
 
 
 
@@ -90,23 +145,22 @@ body {margin:0;}
 
 
 
+
+
+
+
   font-size: 17px;
+
+
+
+
 
 
 
 }
 
 
-table {
 
-
-
-
-  border-spacing: 15px;
-
-
-
- }
 
 
 
@@ -115,7 +169,15 @@ table {
 
 
 
+
+
+
+
   background: #ddd;
+
+
+
+
 
 
 
@@ -123,7 +185,15 @@ table {
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -131,7 +201,15 @@ table {
 
 
 
+
+
+
+
   padding: 16px;
+
+
+
+
 
 
 
@@ -139,310 +217,479 @@ table {
 
 
 
+
+
+
+
   height: 1500px; /* Used in this example to enable scrolling */
 
 
 
+
+
+
+
 }
+
 
 
 * {
+
 box-sizing: border-box;
+
 }
+
+
 
 #myInput {
+
 background-image: url('/css/searchicon.png');
+
 background-position: 10px 12px;
+
 background-repeat: no-repeat;
+
 width: 25%;
+
 font-size: 16px;
+
 padding: 12px 20px 12px 40px;
+
 border: 1px solid #ddd;
+
 margin-bottom: 12px;
+
 }
+
 #myUL li{
+
 display:none;
+
 }
+
 #myUL {
+
 list-style-type: none;
+
 padding: 0;
+
 margin: 0;
+
 }
+
+
 
 #myUL li a {
+
 border: 1px solid #ddd;
+
 margin-top: -1px; /* Prevent double borders */
+
 background-color: #f6f6f6;
+
 padding: 12px;
+
 text-decoration: none;
+
 font-size: 18px;
+
 color: black;
+
 display: block
+
 }
 
+
+
 #myUL li a:hover:not(.header) {
+
 background-color: #eee;
+
+}
+
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  .hero-image {
+    background-image:  url("https://easycookingnbaking.files.wordpress.com/2013/10/pesto-pasta-salad-1.jpg ");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 100%;
+    padding: 0 90px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 90px;
+    background-color: #f1f1f1;
+  }
+
+h1{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif    ;
+}
+li, p {
+  font-family:"Courier New", Courier, monospace;
 }
 
 </style>
-
-
-
 </head>
-
-<body >
-
-
-
-<div class="navbar">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="breakfast.html">Breakfast</a>
-  <a href="Lunch.html">Lunch</a>
-  <a href="Appetizers.html">Appetizers</a>
-  <a href="Dinner.html">Dinner</a>
-  <a href="dessert.html">Desserts</a>
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a food">
-
-</div>
-
-
-
-<ul id="myUL">
-<li><a href="dessert.html">Desserts</a></li>
-<li><a href="lunch.html">Lunch</a></li>
-<li><a href="dinner.html">Dinner</a></li>
-<li><a href="appetizers.html">Appetizers</a></li>
-<li><a href="breakfast.html">Breakfest</a></li>
-
-<li><a href="BroccoliCheeseSoup.html">Broccoli Cheddar Soup </a></li>
-<li><a href="GrilledTomatoandCheeseSandwich.html">Grilled Tomato and Cheese Sandwich  </a></li>
-<li><a href="PastawithsausagespinachcreamyGorgonzola.html">Pasta with sausage, spinach & creamy Gorgonzola</a></li>
-<li><a href="CobbSalad.html">Cobb Salad</a></li>
-<li><a href="PestoPastaSalad.html">Pesto Pasta Salad</a></li>
-<li><a href="ChickenSaladWrap.html">Chicken Salad Wrap</a></li>
-<li><a href="TunaSalad.html">Tuna Salad</a></li>
-<li><a href="ChickenNoodleSoup.html">Chicken Noodle Soup </a></li>
-<li><a href="ShrimpStirFry.html">Shrimp Stir Fry</a></li>
-<li><a href="CaliforniaRollSushi.html">California Roll Sushi </a></li>
-
-
-<li><a href="oatmeal.html">Overnight Peach Oatmeal</a></li>
-<li><a href="eggsandwich.html">Breakfast Biscuits 'N' Eggs </a></li>
-<li><a href="potatoes.html">Home Potatoes</a></li>
-<li><a href="french.html">French Toast Fingers</a></li>
-<li><a href="banana.html">Gluten-Free Banana Pancakes</a></li>
-<li><a href="zucchini.html">Zucchini Fritata</a></li>
-<li><a href="tex.html">Tex-Mex Breakfast Haystacks</a></li>
-<li><a href="crepes.html">Creamy Banana Crepes</a></li>
-<li><a href="hash.html">Southern Hash Browns and Ham Pan Bake</a></li>
-<li><a href="chocolate.html">Chocolate Lover's Pancakes</a></li>
-
-
-<li><a href="oreo.html">Oreo Truffles</a></li>
-<li><a href="cheesecake.html">Strawberry Icebox Cake </a></li>
-<li><a href="cereal.html">Chocolate Cereal Treats</a></li>
-<li><a href="icecream.html">Vegan Banana Ice Cream</a></li>
-<li><a href="shortcake.html">Strawberry Shortcake Milkshake</a></li>
-<li><a href="yogurt.html">Healthy Chocolate Chip Peanut Butter Frozen Yogurt</a></li>
-<li><a href="smores.html">Marshmallow Smores</a></li>
-<li><a href="milkshake.html">Salted Pretzel Nutella Fudge Milkshake</a></li>
-<li><a href="keto.html">Keto Chocolate Mousse</a></li>
-<li><a href="bars.html">Magic Bars</a></li>
-
-<li><a href="S&M.html">Spaghetti and Meatballs</a></li>
-<li><a href="M&C.html">Mac & Cheese </a></li>
-<li><a href="SloppyJoes.html">Sloppy Joe Slider</a></li>
-<li><a href="Beef Stroganoff.html">Beef Stroganoff</a></li>
-<li><a href="PanFriedTilapia.html">Pan Fried Tilapia</a></li>
-<li><a href="OrangeChicken.html"> Orange Chicken</a></li>
-<li><a href="Vegan.html">Vegan Mushroom Stroganoff</a></li>
-<li><a href="Alfredo.html">Fettuccini Alfredo</a></li>
-<li><a href="Rice.html">Rice and Beans</a></li>
-<li><a href="meat.html">Meat Loaf</a></li>
-
-
-<li><a href="eggs.html">Bacon Cheddar Deviled Eggs</a></li>
-<li><a href="guacamole.html">Guacamole </a></li>
-<li><a href="meatballs.html">Cajun Appetizer Meatballs</a></li>
-<li><a href="Mozzarella.html">Mozzarella and Tomato Appetizer Tray</a></li>
-<li><a href="hamandcheese.html">Easy Ham and Cheese Appetizer Sandwiches</a></li>
-<li><a href="potatoskins.html">Restaurant-Style Potato Skins</a></li>
-<li><a href="sausages.html">Brown Sugar Smokies</a></li>
-<li><a href="jalapenos.html">Bacon-Wrapped Jalapeno Popperss</a></li>
-<li><a href="spinachdip.html">Hot Artichoke and Spinach Dip </a></li>
-<li><a href="wings.html">Restaurant-Style Buffalo Chicken Wings </a></li>
-
-</ul>
-
-<script>
-function myFunction() {
-var input, filter, ul, li, a, i, txtValue;
-input = document.getElementById("myInput");
-filter = input.value.toUpperCase();
-ul = document.getElementById("myUL");
-li = ul.getElementsByTagName('li');
-
-if(input.value.length == 0){
-ul.style.display = "none";
-return;
-}else{
-ul.style.display = "block";
-}
-// Loop through all list items, and hide those who don't match the search query
-for (i = 0; i < li.length; i++) {
-a = li[i].getElementsByTagName("a")[0];
-if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-li[i].style.display = "block";
-} else {
-li[i].style.display = "none";
-}
-}
-}
-</script>
-
-
-<h1>Pesto Pasta Salad </h1>
-<picture>
-<img src="https://easycookingnbaking.files.wordpress.com/2013/10/pesto-pasta-salad-1.jpg  "height = "300px" width= "450px" alt="MDN">
-</picture>
-<p>
-  Prep time: 20 minutes
-  </p>
-  <p>
-  Cook time: 20 minutes
-  </p>
-  <p>
-  Total time: 40 minutes
-  </p>
-
-<h2>Ingredients</h2>
-<h4>
-  Pesto:
-  </h4>
-  <p>
-  3 cups packed fresh basil
-</p>
-  <p>
-  1 cup packed fresh parsley
-</p>
-  <p>
-  3 garlic cloves, chopped
-</p>
-  <p>
-  1 tablespoon lemon juice</p>
-    <p>
-  1/2 teaspoon salt</p>
-    <p>
-  1/4 teaspoon pepper</p>
-    <p>
-  1/3 cup pine nuts, toasted</p>
-    <p>
-  1/2 cup olive oil</p>
-    <p>
-  1/2 cup grated Parmesan</p>
-    <h4>
-  Salad:
-  </h4>
-
-  <p>
-  1 pound gemelli or other short pasta</p>
-    <p>
-  1 cup plain 2 percent Greek yogurt</p>
-    <p>
-  2 pints cherry or grape tomatoes, halved</p>
-
-<h2>
-  Instructions
-  </h2>
-<p> 1. Make pesto: In a food processor puree basil, parsley, garlic, lemon juice, salt, pepper and pine nuts until smooth. With motor running, add olive oil and process until a thick paste forms. Add Parmesan and pulse twice. Season with more salt and pepper, if desired.
-</p>
-<p>
-  2.Make salad: Cook pasta according to package directions until al dente. Drain and run under cold water to stop cooking
-  </p>
-  <p>
-  3.In a large bowl, combine pesto and Greek yogurt and stir until well blended. Add cold pasta and toss to coat with dressing. Top with tomatoes. Serve salad at room temperature or cover and refrigerate to serve chilled.
-</p>
-
-<h2>
-  Nutrition</h2>
-<p>
-  Amount Per 1/4 cup (62 g)</p>
-    <p>
-  Calories300</p>
-    <p>
-  %Daily Value*</p>
-    <p>
-  Total Fat31.2 g
-  48%</p>
-    <p>
-  Saturated fat4.6 g
-  23%</p>
-    <p>
-  Trans fat0 g</p>
-    <p>
-
-  Cholesterol5 mg
-  2%</p>
-    <p>
-  Sodium408 mg
-  17%</p>
-    <p>
-  Total Carbohydrate2 g
-  1%</p>
-    <p>
-  Dietary fiber1 g
-  4%</p>
-    <p>
-  Sugar0 g
-</p>
-  <p>
-  Protein3 g
-  6%</p>
-    <p>
-
-
-
-  Vitamin A
-  25%</p>
-    <p>
-  Calcium
-  15%</p>
-    <p>
-  Vitamin D
-  0%</p>
-    <p>
-  Vitamin B-12
-  0%</p>
-    <p>
-
-  Vitamin C
-  8%</p>
-    <p>
-  Iron
-  4%</p>
-    <p>
-  Vitamin B-6
-  0%</p>
-    <p>
-  Magnesium
-  0%</p>
-    <p>
-  *Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.
-</p>
-
-<h3>
-  Click <a href="  https://www.myrecipes.com/recipe/pesto-pasta-salad  ">here</a> for more information.
-</h3>
-
-<h3>
-  Or watch this video
-  </h3>
-
-  <iframe src='https://players.brightcove.net/429048911/default_default/index.html?videoId=5779970906001' allowfullscreen frameborder=0></iframe>
+<body>
 
 
 
 
+  <div class="navbar">
+<img src="h.jpg" alt="logo" style="width:130px ; height:125px">
+    <a href="index.html">Home</a>
+
+    <a href="about.html">About</a>
+
+    <a href="breakfast.html">Breakfast</a>
+
+    <a href="Lunch.html">Lunch</a>
+
+    <a href="Appetizers.html">Appetizers</a>
+
+    <a href="Dinner.html">Dinner</a>
+
+    <a href="dessert.html">Desserts</a>
+
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a food">
+
+
+
+  </div>
+
+
+
+
+
+
+
+  <ul id="myUL">
+
+  <li><a href="dessert.html">Desserts</a></li>
+
+  <li><a href="lunch.html">Lunch</a></li>
+
+  <li><a href="dinner.html">Dinner</a></li>
+
+  <li><a href="appetizers.html">Appetizers</a></li>
+
+  <li><a href="breakfast.html">Breakfest</a></li>
+
+
+
+  <li><a href="BroccoliCheeseSoup.html">Broccoli Cheddar Soup </a></li>
+
+  <li><a href="GrilledTomatoandCheeseSandwich.html">Grilled Tomato and Cheese Sandwich  </a></li>
+
+  <li><a href="PastawithsausagespinachcreamyGorgonzola.html">Pasta with sausage, spinach & creamy Gorgonzola</a></li>
+
+  <li><a href="CobbSalad.html">Cobb Salad</a></li>
+
+  <li><a href="PestoPastaSalad.html">Pesto Pasta Salad</a></li>
+
+  <li><a href="ChickenSaladWrap.html">Chicken Salad Wrap</a></li>
+
+  <li><a href="TunaSalad.html">Tuna Salad</a></li>
+
+  <li><a href="ChickenNoodleSoup.html">Chicken Noodle Soup </a></li>
+
+  <li><a href="ShrimpStirFry.html">Shrimp Stir Fry</a></li>
+
+  <li><a href="CaliforniaRollSushi.html">California Roll Sushi </a></li>
+
+
+
+
+
+  <li><a href="oatmeal.html">Overnight Peach Oatmeal</a></li>
+
+  <li><a href="eggsandwich.html">Breakfast Biscuits 'N' Eggs </a></li>
+
+  <li><a href="potatoes.html">Home Potatoes</a></li>
+
+  <li><a href="french.html">French Toast Fingers</a></li>
+
+  <li><a href="banana.html">Gluten-Free Banana Pancakes</a></li>
+
+  <li><a href="zucchini.html">Zucchini Fritata</a></li>
+
+  <li><a href="tex.html">Tex-Mex Breakfast Haystacks</a></li>
+
+  <li><a href="crepes.html">Creamy Banana Crepes</a></li>
+
+  <li><a href="hash.html">Southern Hash Browns and Ham Pan Bake</a></li>
+
+  <li><a href="chocolate.html">Chocolate Lover's Pancakes</a></li>
+
+
+
+
+
+  <li><a href="oreo.html">Oreo Truffles</a></li>
+
+  <li><a href="cheesecake.html">Strawberry Icebox Cake </a></li>
+
+  <li><a href="cereal.html">Chocolate Cereal Treats</a></li>
+
+  <li><a href="icecream.html">Vegan Banana Ice Cream</a></li>
+
+  <li><a href="shortcake.html">Strawberry Shortcake Milkshake</a></li>
+
+  <li><a href="yogurt.html">Healthy Chocolate Chip Peanut Butter Frozen Yogurt</a></li>
+
+  <li><a href="smores.html">Marshmallow Smores</a></li>
+
+  <li><a href="milkshake.html">Salted Pretzel Nutella Fudge Milkshake</a></li>
+
+  <li><a href="keto.html">Keto Chocolate Mousse</a></li>
+
+  <li><a href="bars.html">Magic Bars</a></li>
+
+
+
+  <li><a href="S&M.html">Spaghetti and Meatballs</a></li>
+
+  <li><a href="M&C.html">Mac & Cheese </a></li>
+
+  <li><a href="SloppyJoes.html">Sloppy Joe Slider</a></li>
+
+  <li><a href="Beef Stroganoff.html">Beef Stroganoff</a></li>
+
+  <li><a href="PanFriedTilapia.html">Pan Fried Tilapia</a></li>
+
+  <li><a href="OrangeChicken.html"> Orange Chicken</a></li>
+
+  <li><a href="Vegan.html">Vegan Mushroom Stroganoff</a></li>
+
+  <li><a href="Alfredo.html">Fettuccini Alfredo</a></li>
+
+  <li><a href="Rice.html">Rice and Beans</a></li>
+
+  <li><a href="meat.html">Meat Loaf</a></li>
+
+
+
+
+
+  <li><a href="eggs.html">Bacon Cheddar Deviled Eggs</a></li>
+
+  <li><a href="guacamole.html">Guacamole </a></li>
+
+  <li><a href="meatballs.html">Cajun Appetizer Meatballs</a></li>
+
+  <li><a href="Mozzarella.html">Mozzarella and Tomato Appetizer Tray</a></li>
+
+  <li><a href="hamandcheese.html">Easy Ham and Cheese Appetizer Sandwiches</a></li>
+
+  <li><a href="potatoskins.html">Restaurant-Style Potato Skins</a></li>
+
+  <li><a href="sausages.html">Brown Sugar Smokies</a></li>
+
+  <li><a href="jalapenos.html">Bacon-Wrapped Jalapeno Popperss</a></li>
+
+  <li><a href="spinachdip.html">Hot Artichoke and Spinach Dip </a></li>
+
+  <li><a href="wings.html">Restaurant-Style Buffalo Chicken Wings </a></li>
+
+
+
+  </ul>
+
+
+
+  <script>
+
+  function myFunction() {
+
+  var input, filter, ul, li, a, i, txtValue;
+
+  input = document.getElementById("myInput");
+
+  filter = input.value.toUpperCase();
+
+  ul = document.getElementById("myUL");
+
+  li = ul.getElementsByTagName('li');
+
+
+
+  if(input.value.length == 0){
+
+  ul.style.display = "none";
+
+  return;
+
+  }else{
+
+  ul.style.display = "block";
+
+  }
+
+  // Loop through all list items, and hide those who don't match the search query
+
+  for (i = 0; i < li.length; i++) {
+
+  a = li[i].getElementsByTagName("a")[0];
+
+  if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+
+  li[i].style.display = "block";
+
+  } else {
+
+  li[i].style.display = "none";
+
+  }
+
+  }
+
+  }
+
+  </script>
+
+
+
+<div class="hero-image"></div>
+
+<h1><center><b><font size="10">Pesto Pasta Salad</font></b> </center></h1>
+<table style="width:50%" cellpadding="0" border="0" align="center" cellspacing="0">
+
+<tr>
+<td>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h1>Ingredients:</h1>
+      <ul>
+        <li> 3 cups packed fresh basil
+          <li>
+        <li>  1 cup packed fresh parsley
+        </li>
+        <li>  3 garlic cloves, chopped
+
+        </li>
+        <li>  1 tablespoon lemon juice
+        </li>
+        <li>  1/2 teaspoon salt
+        </li>
+      <li>  1/4 teaspoon pepper
+      </li>
+      <li>  1/3 cup pine nuts, toasted
+      </li>
+    1/2 cup olive oil
+    </li>
+    <li>  1/2 cup grated Parmesan
+    </li>
+  
+
+  <li>
+  1 pound gemelli or other short pasta</li>
+    <li>
+  1 cup plain 2 percent Greek yogurt</li>
+    <li>
+  2 pints cherry or grape tomatoes, halved</li>
+        
+
+      </ul>
+    </div>
+  </div>
+</td>
+
+<td>
+  <div class="column">
+    <div class="card">
+      <h1><center>Instructions</center></h1>
+      <iframe width="400" height="350" src="https://players.brightcove.net/429048911/default_default/index.html?videoId=5779970906001" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <ol>
+        <li>  1. Make pesto: In a food processor puree basil, parsley, garlic, lemon juice, salt, pepper and pine nuts until smooth. With motor running, add olive oil and process until a thick paste forms. Add Parmesan and pulse twice. Season with more salt and pepper, if desired.
+        </li>
+        <li>   2.Make salad: Cook pasta according to package directions until al dente. Drain and run under cold water to stop cooking
+    </li>
+      <li> 3.In a large bowl, combine pesto and Greek yogurt and stir until well blended. Add cold pasta and toss to coat with dressing. Top with tomatoes. Serve salad at room temperature or cover and refrigerate to serve chilled.
+        </li>
+      </ol>
+      <p>Click <a href="   https://www.myrecipes.com/recipe/pesto-pasta-salad ">here</a> for more information.</p>
+    </div>
+  </div>
+</td>
+</tr>
+
+<tr>
+<td>
+  <div class="column">
+    <div class="card">
+      <h1> <center>Total Time:  40 minutes </center> </h1>
+      <h1><center>Nutrition</center></h1>
+      <ul>
+        <li>  Per Serving</li>
+        <ul>
+      <li>Calories 300 </li>
+      <li>Total Fat31.2 g </li>
+      <li>Protein 3g</li>
+      <li>Cholesterol 5mg</li>
+      <li>Sodium 408mg</li>
+      <li>sugar 0g</li>
+      </ul>
+    </div>
+  </div>
+</td>
+</tr>
+
+</table>
 </body>
 </html>

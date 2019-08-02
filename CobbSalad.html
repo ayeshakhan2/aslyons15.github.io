@@ -1,18 +1,12 @@
+
 <!DOCTYPE html>
 
+<html>
 
-
-<html lang="en">
-
-
-
-<head>
 
   <title> Cobb Salad </title>
 
-
   <meta charset="utf-8">
-
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -20,9 +14,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-
 <style>
+
+
 
 
 
@@ -31,7 +25,15 @@ body {margin:0;}
 
 
 
+
+
+
+
 .navbar {
+
+
+
+
 
 
 
@@ -39,7 +41,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   background-color: #333;
+
+
+
+
 
 
 
@@ -47,7 +57,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   top: 0;
+
+
+
+
 
 
 
@@ -55,11 +73,23 @@ body {margin:0;}
 
 
 
+
+
+
+
   z-index:1; /*Add this*/
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -67,7 +97,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   float: left;
+
+
+
+
 
 
 
@@ -75,7 +113,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   color: #f2f2f2;
+
+
+
+
 
 
 
@@ -83,7 +129,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   padding: 14px 16px;
+
+
+
+
 
 
 
@@ -91,11 +145,23 @@ body {margin:0;}
 
 
 
+
+
+
+
   font-size: 17px;
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -103,7 +169,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   background: #ddd;
+
+
+
+
 
 
 
@@ -111,7 +185,15 @@ body {margin:0;}
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -119,7 +201,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   padding: 16px;
+
+
+
+
 
 
 
@@ -127,284 +217,473 @@ body {margin:0;}
 
 
 
+
+
+
+
   height: 1500px; /* Used in this example to enable scrolling */
 
 
 
+
+
+
+
 }
+
 
 
 * {
+
 box-sizing: border-box;
+
 }
+
+
 
 #myInput {
+
 background-image: url('/css/searchicon.png');
+
 background-position: 10px 12px;
+
 background-repeat: no-repeat;
+
 width: 25%;
+
 font-size: 16px;
+
 padding: 12px 20px 12px 40px;
+
 border: 1px solid #ddd;
+
 margin-bottom: 12px;
+
 }
+
 #myUL li{
+
 display:none;
+
 }
+
 #myUL {
+
 list-style-type: none;
+
 padding: 0;
+
 margin: 0;
+
 }
+
+
 
 #myUL li a {
+
 border: 1px solid #ddd;
+
 margin-top: -1px; /* Prevent double borders */
+
 background-color: #f6f6f6;
+
 padding: 12px;
+
 text-decoration: none;
+
 font-size: 18px;
+
 color: black;
+
 display: block
+
 }
 
+
+
 #myUL li a:hover:not(.header) {
+
 background-color: #eee;
+
+}
+
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  .hero-image {
+    background-image:  url(" https://www.melaniecooks.com/wp-content/uploads/2016/02/cobb_salad_recipe.jpg ");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 100%;
+    padding: 0 90px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 90px;
+    background-color: #f1f1f1;
+  }
+
+h1{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif    ;
+}
+li, p {
+  font-family:"Courier New", Courier, monospace;
 }
 
 </style>
-
-
-
 </head>
-
-<body >
-
-
-
-<div class="navbar">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="breakfast.html">Breakfast</a>
-  <a href="Lunch.html">Lunch</a>
-  <a href="Appetizers.html">Appetizers</a>
-  <a href="Dinner.html">Dinner</a>
-  <a href="dessert.html">Desserts</a>
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a food">
-
-</div>
+<body>
 
 
 
 
-<ul id="myUL">
-<li><a href="dessert.html">Desserts</a></li>
-<li><a href="lunch.html">Lunch</a></li>
-<li><a href="dinner.html">Dinner</a></li>
-<li><a href="appetizers.html">Appetizers</a></li>
-<li><a href="breakfast.html">Breakfest</a></li>
+  <div class="navbar">
+<img src="h.jpg" alt="logo" style="width:130px ; height:125px">
+    <a href="index.html">Home</a>
 
-<li><a href="BroccoliCheeseSoup.html">Broccoli Cheddar Soup </a></li>
-<li><a href="GrilledTomatoandCheeseSandwich.html">Grilled Tomato and Cheese Sandwich  </a></li>
-<li><a href="PastawithsausagespinachcreamyGorgonzola.html">Pasta with sausage, spinach & creamy Gorgonzola</a></li>
-<li><a href="CobbSalad.html">Cobb Salad</a></li>
-<li><a href="PestoPastaSalad.html">Pesto Pasta Salad</a></li>
-<li><a href="ChickenSaladWrap.html">Chicken Salad Wrap</a></li>
-<li><a href="TunaSalad.html">Tuna Salad</a></li>
-<li><a href="ChickenNoodleSoup.html">Chicken Noodle Soup </a></li>
-<li><a href="ShrimpStirFry.html">Shrimp Stir Fry</a></li>
-<li><a href="CaliforniaRollSushi.html">California Roll Sushi </a></li>
+    <a href="about.html">About</a>
 
+    <a href="breakfast.html">Breakfast</a>
 
-<li><a href="oatmeal.html">Overnight Peach Oatmeal</a></li>
-<li><a href="eggsandwich.html">Breakfast Biscuits 'N' Eggs </a></li>
-<li><a href="potatoes.html">Home Potatoes</a></li>
-<li><a href="french.html">French Toast Fingers</a></li>
-<li><a href="banana.html">Gluten-Free Banana Pancakes</a></li>
-<li><a href="zucchini.html">Zucchini Fritata</a></li>
-<li><a href="tex.html">Tex-Mex Breakfast Haystacks</a></li>
-<li><a href="crepes.html">Creamy Banana Crepes</a></li>
-<li><a href="hash.html">Southern Hash Browns and Ham Pan Bake</a></li>
-<li><a href="chocolate.html">Chocolate Lover's Pancakes</a></li>
+    <a href="Lunch.html">Lunch</a>
 
+    <a href="Appetizers.html">Appetizers</a>
 
-<li><a href="oreo.html">Oreo Truffles</a></li>
-<li><a href="cheesecake.html">Strawberry Icebox Cake </a></li>
-<li><a href="cereal.html">Chocolate Cereal Treats</a></li>
-<li><a href="icecream.html">Vegan Banana Ice Cream</a></li>
-<li><a href="shortcake.html">Strawberry Shortcake Milkshake</a></li>
-<li><a href="yogurt.html">Healthy Chocolate Chip Peanut Butter Frozen Yogurt</a></li>
-<li><a href="smores.html">Marshmallow Smores</a></li>
-<li><a href="milkshake.html">Salted Pretzel Nutella Fudge Milkshake</a></li>
-<li><a href="keto.html">Keto Chocolate Mousse</a></li>
-<li><a href="bars.html">Magic Bars</a></li>
+    <a href="Dinner.html">Dinner</a>
 
-<li><a href="S&M.html">Spaghetti and Meatballs</a></li>
-<li><a href="M&C.html">Mac & Cheese </a></li>
-<li><a href="SloppyJoes.html">Sloppy Joe Slider</a></li>
-<li><a href="Beef Stroganoff.html">Beef Stroganoff</a></li>
-<li><a href="PanFriedTilapia.html">Pan Fried Tilapia</a></li>
-<li><a href="OrangeChicken.html"> Orange Chicken</a></li>
-<li><a href="Vegan.html">Vegan Mushroom Stroganoff</a></li>
-<li><a href="Alfredo.html">Fettuccini Alfredo</a></li>
-<li><a href="Rice.html">Rice and Beans</a></li>
-<li><a href="meat.html">Meat Loaf</a></li>
+    <a href="dessert.html">Desserts</a>
 
-
-<li><a href="eggs.html">Bacon Cheddar Deviled Eggs</a></li>
-<li><a href="guacamole.html">Guacamole </a></li>
-<li><a href="meatballs.html">Cajun Appetizer Meatballs</a></li>
-<li><a href="Mozzarella.html">Mozzarella and Tomato Appetizer Tray</a></li>
-<li><a href="hamandcheese.html">Easy Ham and Cheese Appetizer Sandwiches</a></li>
-<li><a href="potatoskins.html">Restaurant-Style Potato Skins</a></li>
-<li><a href="sausages.html">Brown Sugar Smokies</a></li>
-<li><a href="jalapenos.html">Bacon-Wrapped Jalapeno Popperss</a></li>
-<li><a href="spinachdip.html">Hot Artichoke and Spinach Dip </a></li>
-<li><a href="wings.html">Restaurant-Style Buffalo Chicken Wings </a></li>
-
-</ul>
-
-<script>
-function myFunction() {
-var input, filter, ul, li, a, i, txtValue;
-input = document.getElementById("myInput");
-filter = input.value.toUpperCase();
-ul = document.getElementById("myUL");
-li = ul.getElementsByTagName('li');
-
-if(input.value.length == 0){
-ul.style.display = "none";
-return;
-}else{
-ul.style.display = "block";
-}
-// Loop through all list items, and hide those who don't match the search query
-for (i = 0; i < li.length; i++) {
-a = li[i].getElementsByTagName("a")[0];
-if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-li[i].style.display = "block";
-} else {
-li[i].style.display = "none";
-}
-}
-}
-</script>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a food">
 
 
 
-<h1>Cobb Salad </h1>
-<picture>
-<img src=" https://www.melaniecooks.com/wp-content/uploads/2016/02/cobb_salad_recipe.jpg  "height = "300px" width= "450px" alt="MDN">
-</picture>
-<p>
-  Prep time: 20 minutes
-  </p>
-  <p>
-  Cook time: 30 minutes
-  </p>
-  <p>
-  Total time: 50 minutes
-  </p>
-
-<h2>Ingredients</h2>
-<p>
-  6 slices bacon</p>
-    <p>
-  3 eggs</p>
-    <p>
-  1 head iceberg lettuce, shredded</p>
-    <p>
-  3 cups chopped, cooked chicken meat</p>
-    <p>
-  2 tomatoes, seeded and chopped</p>
-    <p>
-  3/4 cup blue cheese, crumbled</p>
-    <p>
-  1 avocado - peeled, pitted and diced</p>
-    <p>
-  3 green onions, chopped</p>
-    <p>
-  1 (8 ounce) bottle Ranch-style salad dressing</p>
+  </div>
 
 
 
-<h2>
-  Instructions
-  </h2>
-<p> 1. Place eggs in a saucepan and cover completely with cold water. Bring water to a boil. Cover, remove from heat, and let eggs stand in hot water for 10 to 12 minutes. Remove from hot water, cool, peel and chop.
-</p>
-<p>
-  Place bacon in a large, deep skillet. Cook over medium high heat until evenly brown. Drain, crumble and set aside.
-</p>
-<p>
-  3. Divide shredded lettuce among individual plates.
-</p>
-  <p>
-    4. Evenly divide and arrange chicken, eggs, tomatoes, blue cheese, bacon, avocado and green onions in a row on top of the lettuce.
-</p>
-<p>
-  5. Drizzle with your favorite dressing and enjoy.
-</p>
-<h2>
-  Nutrition</h2>
-  <p>
-  Servings Per Recipe: 6</p>
-  <p>
-  Amount Per Serving</p>
-  <p>
-  Calories: 525</p>
-  <p>
-  % Daily Value *</p>
-  <p>
-  Total Fat: 39.9g 61 %</p>
-  <p>
-  Saturated Fat: 10.0g</p>
-  <p>
-  Cholesterol: 179mg 60 %</p>
-  <p>
-  Sodium: 915mg 37 %</p>
-  <p>
-  Potassium: 720mg 20 %</p>
-  <p>
-  Total Carbohydrates: 10.2g 3 %</p>
-  <p>
-  Dietary Fiber: 4.1g 16 %</p>
-  <p>
-  Protein: 31.7g 63 %</p>
-  <p>
-  Sugars: 5g</p>
-  <p>
-  Vitamin A: 1202IU</p>
-  <p>
-  Vitamin C: 13mg</p>
-  <p>
-  Calcium: 153mg</p>
-  <p>
-  Iron: 2mg</p>
-  <p>
-  Thiamin: 0mg</p>
-  <p>
-  Niacin: 16mg</p>
-  <p>
-  Vitamin B6: 1mg</p>
-  <p>
-  Magnesium: 48mg</p>
-  <p>
-  Folate: 84mcg</p>
-  <p>
-  *</p>
-  <p>
-  Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.</p>
 
 
-<h3>
-  Click <a href=" https://www.allrecipes.com/recipe/14415/cobb-salad/  ">here</a> for more information.
-</h3>
 
-<h3>
-  Or watch this video
-  </h3>
 
-  <iframe src='https://players.brightcove.net/1033249144001/HyUr5pA17_default/index.html?videoId=2707334358001' allowfullscreen frameborder=0></iframe>
+  <ul id="myUL">
+
+  <li><a href="dessert.html">Desserts</a></li>
+
+  <li><a href="lunch.html">Lunch</a></li>
+
+  <li><a href="dinner.html">Dinner</a></li>
+
+  <li><a href="appetizers.html">Appetizers</a></li>
+
+  <li><a href="breakfast.html">Breakfest</a></li>
+
+
+
+  <li><a href="BroccoliCheeseSoup.html">Broccoli Cheddar Soup </a></li>
+
+  <li><a href="GrilledTomatoandCheeseSandwich.html">Grilled Tomato and Cheese Sandwich  </a></li>
+
+  <li><a href="PastawithsausagespinachcreamyGorgonzola.html">Pasta with sausage, spinach & creamy Gorgonzola</a></li>
+
+  <li><a href="CobbSalad.html">Cobb Salad</a></li>
+
+  <li><a href="PestoPastaSalad.html">Pesto Pasta Salad</a></li>
+
+  <li><a href="ChickenSaladWrap.html">Chicken Salad Wrap</a></li>
+
+  <li><a href="TunaSalad.html">Tuna Salad</a></li>
+
+  <li><a href="ChickenNoodleSoup.html">Chicken Noodle Soup </a></li>
+
+  <li><a href="ShrimpStirFry.html">Shrimp Stir Fry</a></li>
+
+  <li><a href="CaliforniaRollSushi.html">California Roll Sushi </a></li>
+
+
+
+
+
+  <li><a href="oatmeal.html">Overnight Peach Oatmeal</a></li>
+
+  <li><a href="eggsandwich.html">Breakfast Biscuits 'N' Eggs </a></li>
+
+  <li><a href="potatoes.html">Home Potatoes</a></li>
+
+  <li><a href="french.html">French Toast Fingers</a></li>
+
+  <li><a href="banana.html">Gluten-Free Banana Pancakes</a></li>
+
+  <li><a href="zucchini.html">Zucchini Fritata</a></li>
+
+  <li><a href="tex.html">Tex-Mex Breakfast Haystacks</a></li>
+
+  <li><a href="crepes.html">Creamy Banana Crepes</a></li>
+
+  <li><a href="hash.html">Southern Hash Browns and Ham Pan Bake</a></li>
+
+  <li><a href="chocolate.html">Chocolate Lover's Pancakes</a></li>
+
+
+
+
+
+  <li><a href="oreo.html">Oreo Truffles</a></li>
+
+  <li><a href="cheesecake.html">Strawberry Icebox Cake </a></li>
+
+  <li><a href="cereal.html">Chocolate Cereal Treats</a></li>
+
+  <li><a href="icecream.html">Vegan Banana Ice Cream</a></li>
+
+  <li><a href="shortcake.html">Strawberry Shortcake Milkshake</a></li>
+
+  <li><a href="yogurt.html">Healthy Chocolate Chip Peanut Butter Frozen Yogurt</a></li>
+
+  <li><a href="smores.html">Marshmallow Smores</a></li>
+
+  <li><a href="milkshake.html">Salted Pretzel Nutella Fudge Milkshake</a></li>
+
+  <li><a href="keto.html">Keto Chocolate Mousse</a></li>
+
+  <li><a href="bars.html">Magic Bars</a></li>
+
+
+
+  <li><a href="S&M.html">Spaghetti and Meatballs</a></li>
+
+  <li><a href="M&C.html">Mac & Cheese </a></li>
+
+  <li><a href="SloppyJoes.html">Sloppy Joe Slider</a></li>
+
+  <li><a href="Beef Stroganoff.html">Beef Stroganoff</a></li>
+
+  <li><a href="PanFriedTilapia.html">Pan Fried Tilapia</a></li>
+
+  <li><a href="OrangeChicken.html"> Orange Chicken</a></li>
+
+  <li><a href="Vegan.html">Vegan Mushroom Stroganoff</a></li>
+
+  <li><a href="Alfredo.html">Fettuccini Alfredo</a></li>
+
+  <li><a href="Rice.html">Rice and Beans</a></li>
+
+  <li><a href="meat.html">Meat Loaf</a></li>
+
+
+
+
+
+  <li><a href="eggs.html">Bacon Cheddar Deviled Eggs</a></li>
+
+  <li><a href="guacamole.html">Guacamole </a></li>
+
+  <li><a href="meatballs.html">Cajun Appetizer Meatballs</a></li>
+
+  <li><a href="Mozzarella.html">Mozzarella and Tomato Appetizer Tray</a></li>
+
+  <li><a href="hamandcheese.html">Easy Ham and Cheese Appetizer Sandwiches</a></li>
+
+  <li><a href="potatoskins.html">Restaurant-Style Potato Skins</a></li>
+
+  <li><a href="sausages.html">Brown Sugar Smokies</a></li>
+
+  <li><a href="jalapenos.html">Bacon-Wrapped Jalapeno Popperss</a></li>
+
+  <li><a href="spinachdip.html">Hot Artichoke and Spinach Dip </a></li>
+
+  <li><a href="wings.html">Restaurant-Style Buffalo Chicken Wings </a></li>
+
+
+
+  </ul>
+
+
+
+  <script>
+
+  function myFunction() {
+
+  var input, filter, ul, li, a, i, txtValue;
+
+  input = document.getElementById("myInput");
+
+  filter = input.value.toUpperCase();
+
+  ul = document.getElementById("myUL");
+
+  li = ul.getElementsByTagName('li');
+
+
+
+  if(input.value.length == 0){
+
+  ul.style.display = "none";
+
+  return;
+
+  }else{
+
+  ul.style.display = "block";
+
+  }
+
+  // Loop through all list items, and hide those who don't match the search query
+
+  for (i = 0; i < li.length; i++) {
+
+  a = li[i].getElementsByTagName("a")[0];
+
+  if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+
+  li[i].style.display = "block";
+
+  } else {
+
+  li[i].style.display = "none";
+
+  }
+
+  }
+
+  }
+
+  </script>
+
+
+
+<div class="hero-image"></div>
+
+<h1><center><b><font size="10">Cobb Salad</font></b> </center></h1>
+<table style="width:50%" cellpadding="0" border="0" align="center" cellspacing="0">
+
+<tr>
+<td>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h1>Ingredients:</h1>
+      <ul>
+        <li> 6 slices bacon
+          <li>
+        <li>3 eggs
+        </li>
+        <li>1 head iceberg lettuce, shredded
+        </li>
+        <li>3 cups chopped, cooked chicken meat
+        </li>
+        <li>2 tomatoes, seeded and chopped
+        </li>
+      <li>3/4 cup blue cheese, crumbled
+      </li>
+      <li>1 avocado - peeled, pitted and diced
+      </li>
+    3 green onions, chopped
+    </li>
+    <li>  1 (8 ounce) bottle Ranch-style salad dressing
+    </li>
+        
+
+      </ul>
+    </div>
+  </div>
+</td>
+
+<td>
+  <div class="column">
+    <div class="card">
+      <h1><center>Instructions</center></h1>
+      <iframe width="400" height="350" src="https://players.brightcove.net/1033249144001/HyUr5pA17_default/index.html?videoId=2707334358001" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <ol>
+        <li> 1. Place eggs in a saucepan and cover completely with cold water. Bring water to a boil. Cover, remove from heat, and let eggs stand in hot water for 10 to 12 minutes. Remove from hot water, cool, peel and chop.
+          </li>
+        <li>    2.Place bacon in a large, deep skillet. Cook over medium high heat until evenly brown. Drain, crumble and set aside.
+      </li>
+      <li>  3. Divide shredded lettuce among individual plates.
+          </li>
+    <li>    4. Evenly divide and arrange chicken, eggs, tomatoes, blue cheese, bacon, avocado and green onions in a row on top of the lettuce.
+    </li>
+    <li>5. Drizzle with your favorite dressing and enjoy.    </li>
+      </ol>
+      <p>Click <a href=" https://www.allrecipes.com/recipe/14415/cobb-salad/ ">here</a> for more information.</p>
+    </div>
+  </div>
+</td>
+</tr>
+
+<tr>
+<td>
+  <div class="column">
+    <div class="card">
+      <h1> <center>Total Time:  50 minutes </center> </h1>
+      <h1><center>Nutrition</center></h1>
+      <ul>
+        <li>  Per Serving</li>
+        <ul>
+      <li>Calories: 525 </li>
+      <li>Total Fat: 39.9g </li>
+      <li>protein: 31.7g</li>
+      <li>cholesterol: 179mg</li>
+      <li>sodium: 915mg</li>
+      <li>sugar: 5g</li>
+      </ul>
+    </div>
+  </div>
+</td>
+</tr>
+
+</table>
 </body>
 </html>
