@@ -1,30 +1,15 @@
-<!DOCTYPE html>
-
-
-
 <html lang="en">
 
-
-
-<head>
-
-  <title>milkshake  </title>
-
-
+<head> <title>Salted Pretzel Nutella Fudge Milkshake</title>
   <meta charset="utf-8">
 
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-<style>
-
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
 
 
 body {margin:0;}
@@ -185,97 +170,264 @@ display: block
 background-color: #eee;
 }
 
-</style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+  .hero-image {
+    background-image:  url("milkshake.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 100%;
+    padding: 0 100px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 90px;
+    background-color: #f1f1f1;
+  }
+
+h1{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif	;
+}
+li, p {
+  font-family:"Courier New", Courier, monospace;
+}
+
+</style>
 
 
 </head>
 
-<body >
+<body>
+
+
+  <div class="navbar">
+    <img src="h.jpg" alt="logo" style="width:130px ; height:125px">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="breakfast.html">Breakfast</a>
+    <a href="Lunch.html">Lunch</a>
+    <a href="Appetizers.html">Appetizers</a>
+    <a href="Dinner.html">Dinner</a>
+    <a href="dessert.html">Desserts</a>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a food">
+
+  </div>
 
 
 
-<div class="navbar">
-  <img src="h.jpg" alt="logo" style="width:130px ; height:125px">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="breakfast.html">Breakfast</a>
-  <a href="Lunch.html">Lunch</a>
-  <a href="Appetizers.html">Appetizers</a>
-  <a href="Dinner.html">Dinner</a>
-  <a href="dessert.html">Desserts</a>
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a food">
+  <ul id="myUL">
+  <li><a href="dessert.html">Desserts</a></li>
+  <li><a href="lunch.html">Lunch</a></li>
+  <li><a href="dinner.html">Dinner</a></li>
+  <li><a href="appetizers.html">Appetizers</a></li>
+  <li><a href="breakfast.html">Breakfest</a></li>
 
-</div>
-
-
-
-<ul id="myUL">
-<li><a href="dessert.html">Desserts</a></li>
-<li><a href="lunch.html">Lunch</a></li>
-<li><a href="dinner.html">Dinner</a></li>
-<li><a href="appetizers.html">Appetizers</a></li>
-<li><a href="breakfast.html">Breakfest</a></li>
-
-<li><a href="BroccoliCheeseSoup.html">Broccoli Cheddar Soup </a></li>
-<li><a href="GrilledTomatoandCheeseSandwich.html">Grilled Tomato and Cheese Sandwich  </a></li>
-<li><a href="PastawithsausagespinachcreamyGorgonzola.html">Pasta with sausage, spinach & creamy Gorgonzola</a></li>
-<li><a href="CobbSalad.html">Cobb Salad</a></li>
-<li><a href="PestoPastaSalad.html">Pesto Pasta Salad</a></li>
-<li><a href="ChickenSaladWrap.html">Chicken Salad Wrap</a></li>
-<li><a href="TunaSalad.html">Tuna Salad</a></li>
-<li><a href="ChickenNoodleSoup.html">Chicken Noodle Soup </a></li>
-<li><a href="ShrimpStirFry.html">Shrimp Stir Fry</a></li>
-<li><a href="CaliforniaRollSushi.html">California Roll Sushi </a></li>
+  <li><a href="BroccoliCheeseSoup.html">Broccoli Cheddar Soup </a></li>
+  <li><a href="GrilledTomatoandCheeseSandwich.html">Grilled Tomato and Cheese Sandwich  </a></li>
+  <li><a href="PastawithsausagespinachcreamyGorgonzola.html">Pasta with sausage, spinach & creamy Gorgonzola</a></li>
+  <li><a href="CobbSalad.html">Cobb Salad</a></li>
+  <li><a href="PestoPastaSalad.html">Pesto Pasta Salad</a></li>
+  <li><a href="ChickenSaladWrap.html">Chicken Salad Wrap</a></li>
+  <li><a href="TunaSalad.html">Tuna Salad</a></li>
+  <li><a href="ChickenNoodleSoup.html">Chicken Noodle Soup </a></li>
+  <li><a href="ShrimpStirFry.html">Shrimp Stir Fry</a></li>
+  <li><a href="CaliforniaRollSushi.html">California Roll Sushi </a></li>
 
 
-<li><a href="oatmeal.html">Overnight Peach Oatmeal</a></li>
-<li><a href="eggsandwich.html">Breakfast Biscuits 'N' Eggs </a></li>
-<li><a href="potatoes.html">Home Potatoes</a></li>
-<li><a href="french.html">French Toast Fingers</a></li>
-<li><a href="banana.html">Gluten-Free Banana Pancakes</a></li>
-<li><a href="zucchini.html">Zucchini Fritata</a></li>
-<li><a href="tex.html">Tex-Mex Breakfast Haystacks</a></li>
-<li><a href="crepes.html">Creamy Banana Crepes</a></li>
-<li><a href="hash.html">Southern Hash Browns and Ham Pan Bake</a></li>
-<li><a href="chocolate.html">Chocolate Lover's Pancakes</a></li>
+  <li><a href="oatmeal.html">Overnight Peach Oatmeal</a></li>
+  <li><a href="eggsandwich.html">Breakfast Biscuits 'N' Eggs </a></li>
+  <li><a href="potatoes.html">Home Potatoes</a></li>
+  <li><a href="french.html">French Toast Fingers</a></li>
+  <li><a href="banana.html">Gluten-Free Banana Pancakes</a></li>
+  <li><a href="zucchini.html">Zucchini Fritata</a></li>
+  <li><a href="tex.html">Tex-Mex Breakfast Haystacks</a></li>
+  <li><a href="crepes.html">Creamy Banana Crepes</a></li>
+  <li><a href="hash.html">Southern Hash Browns and Ham Pan Bake</a></li>
+  <li><a href="chocolate.html">Chocolate Lover's Pancakes</a></li>
 
 
-<li><a href="oreo.html">Oreo Truffles</a></li>
-<li><a href="cheesecake.html">Strawberry Icebox Cake </a></li>
-<li><a href="cereal.html">Chocolate Cereal Treats</a></li>
-<li><a href="icecream.html">Vegan Banana Ice Cream</a></li>
-<li><a href="shortcake.html">Strawberry Shortcake Milkshake</a></li>
-<li><a href="yogurt.html">Healthy Chocolate Chip Peanut Butter Frozen Yogurt</a></li>
-<li><a href="smores.html">Marshmallow Smores</a></li>
-<li><a href="milkshake.html">Salted Pretzel Nutella Fudge Milkshake</a></li>
-<li><a href="keto.html">Keto Chocolate Mousse</a></li>
-<li><a href="bars.html">Magic Bars</a></li>
+  <li><a href="oreo.html">Oreo Truffles</a></li>
+  <li><a href="cheesecake.html">Strawberry Icebox Cake </a></li>
+  <li><a href="cereal.html">Chocolate Cereal Treats</a></li>
+  <li><a href="icecream.html">Vegan Banana Ice Cream</a></li>
+  <li><a href="shortcake.html">Strawberry Shortcake Milkshake</a></li>
+  <li><a href="yogurt.html">Healthy Chocolate Chip Peanut Butter Frozen Yogurt</a></li>
+  <li><a href="smores.html">Marshmallow Smores</a></li>
+  <li><a href="milkshake.html">Salted Pretzel Nutella Fudge Milkshake</a></li>
+  <li><a href="keto.html">Keto Chocolate Mousse</a></li>
+  <li><a href="bars.html">Magic Bars</a></li>
 
-<li><a href="S&M.html">Spaghetti and Meatballs</a></li>
-<li><a href="M&C.html">Mac & Cheese </a></li>
-<li><a href="SloppyJoes.html">Sloppy Joe Slider</a></li>
-<li><a href="Beef Stroganoff.html">Beef Stroganoff</a></li>
-<li><a href="PanFriedTilapia.html">Pan Fried Tilapia</a></li>
-<li><a href="OrangeChicken.html"> Orange Chicken</a></li>
-<li><a href="Vegan.html">Vegan Mushroom Stroganoff</a></li>
-<li><a href="Alfredo.html">Fettuccini Alfredo</a></li>
-<li><a href="Rice.html">Rice and Beans</a></li>
-<li><a href="meat.html">Meat Loaf</a></li>
+  <li><a href="S&M.html">Spaghetti and Meatballs</a></li>
+  <li><a href="M&C.html">Mac & Cheese </a></li>
+  <li><a href="SloppyJoes.html">Sloppy Joe Slider</a></li>
+  <li><a href="Beef Stroganoff.html">Beef Stroganoff</a></li>
+  <li><a href="PanFriedTilapia.html">Pan Fried Tilapia</a></li>
+  <li><a href="OrangeChicken.html"> Orange Chicken</a></li>
+  <li><a href="Vegan.html">Vegan Mushroom Stroganoff</a></li>
+  <li><a href="Alfredo.html">Fettuccini Alfredo</a></li>
+  <li><a href="Rice.html">Rice and Beans</a></li>
+  <li><a href="meat.html">Meat Loaf</a></li>
 
 
-<li><a href="eggs.html">Bacon Cheddar Deviled Eggs</a></li>
-<li><a href="guacamole.html">Guacamole </a></li>
-<li><a href="meatballs.html">Cajun Appetizer Meatballs</a></li>
-<li><a href="Mozzarella.html">Mozzarella and Tomato Appetizer Tray</a></li>
-<li><a href="hamandcheese.html">Easy Ham and Cheese Appetizer Sandwiches</a></li>
-<li><a href="potatoskins.html">Restaurant-Style Potato Skins</a></li>
-<li><a href="sausages.html">Brown Sugar Smokies</a></li>
-<li><a href="jalapenos.html">Bacon-Wrapped Jalapeno Popperss</a></li>
-<li><a href="spinachdip.html">Hot Artichoke and Spinach Dip </a></li>
-<li><a href="wings.html">Restaurant-Style Buffalo Chicken Wings </a></li>
+  <li><a href="eggs.html">Bacon Cheddar Deviled Eggs</a></li>
+  <li><a href="guacamole.html">Guacamole </a></li>
+  <li><a href="meatballs.html">Cajun Appetizer Meatballs</a></li>
+  <li><a href="Mozzarella.html">Mozzarella and Tomato Appetizer Tray</a></li>
+  <li><a href="hamandcheese.html">Easy Ham and Cheese Appetizer Sandwiches</a></li>
+  <li><a href="potatoskins.html">Restaurant-Style Potato Skins</a></li>
+  <li><a href="sausages.html">Brown Sugar Smokies</a></li>
+  <li><a href="jalapenos.html">Bacon-Wrapped Jalapeno Popperss</a></li>
+  <li><a href="spinachdip.html">Hot Artichoke and Spinach Dip </a></li>
+  <li><a href="wings.html">Restaurant-Style Buffalo Chicken Wings </a></li>
 
-</ul>
+  </ul>
+  <div class="hero-image"></div>
+
+  <h1><center><b><font size="10">Salted Pretzel Nutella Fudge Milkshake</font></b> </center></h1>
+  <table style="width:50%" cellpadding="0" border="0" align="center" cellspacing="0">
+
+
+    <tr>
+    <td>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <h1>Ingredients</h1>
+          <ul>
+            <li>NUTELLA FUDGE (OPTIONAL)</li>
+            <ul>
+              <li> 1 ounce can sweetened condensed milk 14</li>
+              <li>1 cup Nutella</li>
+              <li>8 ounces semi-sweet or dark chocolate chopped</li>
+              <li>3 tablespoons butter</li>
+              <li>1 teaspoon vanilla</li>
+              <li>pretzel twists for topping</li>
+              <li>1/4-1/2 cup heavy cream </li>
+            </ul>
+
+            <li>MALTED MILK CREAM</li>
+            <ul>
+              <li> 1 cup heavy cream </li>
+              <li>2 tablespoons malted milk powder</li>
+              <li>1/2 of a vanilla bean seeds removed (optional)</li>
+            </ul>
+
+            <li>MILKSHAKE</li>
+            <ul>
+              <li>1/4 cup any type of pretzels rounded </li>
+              <li>3/4 cup vanilla ice cream about 2 large scoops</li>
+              <li>1/3 cup Nutella</li>
+              <li>1/3 cup milk + more if desired</li>
+              <li>1 teaspoon vanilla extract</li>
+              <li>Nutella fudge for serving (recipe below)</li>
+            </ul>
+
+          </ul>
+        </div>
+      </div>
+    </td>
+
+    <td>
+      <div class="column">
+        <div class="card">
+          <h1><center>Instructions</center></h1>
+
+          <ul><li>FUDGE (OPTIONAL)</li></ul>
+          <ol>
+            <li>Place the sweetened condensed milk, Nutella and chocolate chips in a heat proof bowl. Place in the microwave and melt on 30 second intervals until melted and smooth. Stir in the butter + vanilla. The fudge with be thick, but just keep stirring. Spoon all but 1/3 cup of the fudge into a parchment lined 8x8 inch square baking pan. Push pretzels onto the top of the fudge. Cover the pan and place in the fridge to set, this will take about 30 minutes. If in a hurry, place the fudge in the freezer for 10 minutes.</li>
+            <li>Add the remaining 1/3 cup of fudge to a heatproof bowl and add 1/4 cup cream. Melt on 30 second intervals until smooth and the consistency of fudge sauce. If the sauce is too thick, add cream until the right consistency is reached. Warm the sauce before using.</li>
+          </ol>
+
+
+          <ul><li>MALTED MILK CREAM</li></ul>
+          <ol>
+            <li> In a mixing bowl, whip the cream using and electric mixer until soft peaks form. Add the malted milk powder and vanilla and whip until combined. Store covered in the fridge.</li>
+          </ol>
+
+          <ul><li>MILKSHAKE</li></ul>
+          <ol>
+          <li> Add the pretzels to a blender and blend until they become fine crumbs. Add the ice cream, Nutella, milk and vanilla. Blend until smooth.</li>
+          <li>Drizzle 2 glasses with warm Nutella fudge. Pour the milkshakes into the glasses and top with whipped cream, a square of fudge and a toasted marshmallow. Drink!!</li>
+          </ol>
+        <p>  Click <a href="https://www.halfbakedharvest.com/salted-pretzel-nutella-fudge-milkshake-with-malted-milk-whipped-cream/#bo-recipe">here</a> for more information.</p>
+        </div>
+      </div>
+    </td>
+    </tr>
+
+    <tr>
+    <td>
+      <div class="column">
+        <div class="card">
+          <h1><center>Nutrition</center></h1>
+          <ul>
+              <li> calories 1562 kcaL</li>
+          </ul>
+        </div>
+      </div>
+    </td>
+
+<td>
+  <div class="column">
+    <div class="card">
+      <h1> <center>Total Time:   25 minutes </center> </h1>
+    </div>
+  </div>
+</td>
+
+    </tr>
+
+    </table>
 
 <script>
 function myFunction() {
@@ -303,151 +455,6 @@ li[i].style.display = "none";
 }
 </script>
 
-
-
-  <h1><center>Salted Pretzel Nutella Fudge Milkshake </center></h1>
-
-
-
-  <img src="milkshake.jpg" alt="Trulli" width="400" height="300">
-
-
-
-
-
-  <h2> Total Time : 20 minutes </h2>
-
-
-
-<h2>Ingredients</h2>
-
-
-
-<ul>
-
-  <li>NUTELLA FUDGE (OPTIONAL)</li>
-
-  <ul>
-
-    <li> 1 ounce can sweetened condensed milk 14</li>
-
-    <li>1 cup Nutella</li>
-
-    <li>8 ounces semi-sweet or dark chocolate chopped</li>
-
-    <li>3 tablespoons butter</li>
-
-    <li>1 teaspoon vanilla</li>
-
-    <li>pretzel twists for topping</li>
-
-    <li>1/4-1/2 cup heavy cream </li>
-
-  </ul>
-
-
-
-  <li>MALTED MILK CREAM</li>
-
-  <ul>
-
-    <li> 1 cup heavy cream </li>
-
-    <li>2 tablespoons malted milk powder</li>
-
-    <li>1/2 of a vanilla bean seeds removed (optional)</li>
-
-  </ul>
-
-
-
-  <li>MILKSHAKE</li>
-
-  <ul>
-
-    <li>1/4 cup any type of pretzels rounded </li>
-
-    <li>3/4 cup vanilla ice cream about 2 large scoops</li>
-
-    <li>1/3 cup Nutella</li>
-
-    <li>1/3 cup milk + more if desired</li>
-
-    <li>1 teaspoon vanilla extract</li>
-
-    <li>Nutella fudge for serving (recipe below)</li>
-
-  </ul>
-
-
-
-</ul>
-
-
-
-
-
-<h2>Directions</h2>
-
-
-
-<ul><li>FUDGE (OPTIONAL)</li></ul>
-
-<ol>
-
-  <li>Place the sweetened condensed milk, Nutella and chocolate chips in a heat proof bowl. Place in the microwave and melt on 30 second intervals until melted and smooth. Stir in the butter + vanilla. The fudge with be thick, but just keep stirring. Spoon all but 1/3 cup of the fudge into a parchment lined 8x8 inch square baking pan. Push pretzels onto the top of the fudge. Cover the pan and place in the fridge to set, this will take about 30 minutes. If in a hurry, place the fudge in the freezer for 10 minutes.</li>
-
-  <li>Add the remaining 1/3 cup of fudge to a heatproof bowl and add 1/4 cup cream. Melt on 30 second intervals until smooth and the consistency of fudge sauce. If the sauce is too thick, add cream until the right consistency is reached. Warm the sauce before using.</li>
-
-</ol>
-
-
-
-
-
-<ul><li>MALTED MILK CREAM</li></ul>
-
-<ol>
-
-  <li> In a mixing bowl, whip the cream using and electric mixer until soft peaks form. Add the malted milk powder and vanilla and whip until combined. Store covered in the fridge.</li>
-
-</ol>
-
-
-
-<ul><li>MILKSHAKE</li></ul>
-
-<ol>
-
-<li> Add the pretzels to a blender and blend until they become fine crumbs. Add the ice cream, Nutella, milk and vanilla. Blend until smooth.</li>
-
-<li>Drizzle 2 glasses with warm Nutella fudge. Pour the milkshakes into the glasses and top with whipped cream, a square of fudge and a toasted marshmallow. Drink!!</li>
-
-</ol>
-
-
-
-
-
-<h2>Nutrition</h2>
-
-
-
-
-
-<ul>
-
-  <li> calories 1562 kcaL</li>
-
-</ul>
-
-
-
-Click <a href="https://www.halfbakedharvest.com/salted-pretzel-nutella-fudge-milkshake-with-malted-milk-whipped-cream/#bo-recipe">here</a> for more information.
-
-
-
-
-
 </body>
+
 </html>
