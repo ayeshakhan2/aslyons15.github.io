@@ -1,17 +1,12 @@
+
 <!DOCTYPE html>
 
+<html>
 
 
-<html lang="en">
-
-
-
-<head>
-
-
+  <title>Shrimp Stir Fry </title>
 
   <meta charset="utf-8">
-
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -19,9 +14,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-
 <style>
+
+
 
 
 
@@ -30,7 +25,15 @@ body {margin:0;}
 
 
 
+
+
+
+
 .navbar {
+
+
+
+
 
 
 
@@ -38,7 +41,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   background-color: #333;
+
+
+
+
 
 
 
@@ -46,7 +57,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   top: 0;
+
+
+
+
 
 
 
@@ -54,11 +73,23 @@ body {margin:0;}
 
 
 
+
+
+
+
   z-index:1; /*Add this*/
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -66,7 +97,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   float: left;
+
+
+
+
 
 
 
@@ -74,7 +113,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   color: #f2f2f2;
+
+
+
+
 
 
 
@@ -82,7 +129,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   padding: 14px 16px;
+
+
+
+
 
 
 
@@ -90,23 +145,22 @@ body {margin:0;}
 
 
 
+
+
+
+
   font-size: 17px;
+
+
+
+
 
 
 
 }
 
 
-table {
 
-
-
-
-  border-spacing: 15px;
-
-
-
- }
 
 
 
@@ -115,7 +169,15 @@ table {
 
 
 
+
+
+
+
   background: #ddd;
+
+
+
+
 
 
 
@@ -123,7 +185,15 @@ table {
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -131,7 +201,15 @@ table {
 
 
 
+
+
+
+
   padding: 16px;
+
+
+
+
 
 
 
@@ -139,7 +217,15 @@ table {
 
 
 
+
+
+
+
   height: 1500px; /* Used in this example to enable scrolling */
+
+
+
+
 
 
 
@@ -147,284 +233,475 @@ table {
 
 
 
+* {
+
+box-sizing: border-box;
+
+}
+
+
+
+#myInput {
+
+background-image: url('/css/searchicon.png');
+
+background-position: 10px 12px;
+
+background-repeat: no-repeat;
+
+width: 25%;
+
+font-size: 16px;
+
+padding: 12px 20px 12px 40px;
+
+border: 1px solid #ddd;
+
+margin-bottom: 12px;
+
+}
+
+#myUL li{
+
+display:none;
+
+}
+
+#myUL {
+
+list-style-type: none;
+
+padding: 0;
+
+margin: 0;
+
+}
+
+
+
+#myUL li a {
+
+border: 1px solid #ddd;
+
+margin-top: -1px; /* Prevent double borders */
+
+background-color: #f6f6f6;
+
+padding: 12px;
+
+text-decoration: none;
+
+font-size: 18px;
+
+color: black;
+
+display: block
+
+}
+
+
+
+#myUL li a:hover:not(.header) {
+
+background-color: #eee;
+
+}
+
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  .hero-image {
+    background-image:  url("https://www.jessicagavin.com/wp-content/uploads/2018/01/shrimp-stir-fry8.jpg ");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 100%;
+    padding: 0 90px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 90px;
+    background-color: #f1f1f1;
+  }
+
+h1{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif    ;
+}
+li, p {
+  font-family:"Courier New", Courier, monospace;
+}
+
 </style>
-
-
-
 </head>
+<body>
 
-<body >
 
 
 
-<div class="navbar">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="breakfast.html">Breakfast</a>
-  <a href="Lunch.html">Lunch</a>
-  <a href="Appetizers.html">Appetizers</a>
-  <a href="Dinner.html">Dinner</a>
-  <a href="dessert.html">Desserts</a>
-  <input type="text" placeholder="Search..">
+  <div class="navbar">
+<img src="h.jpg" alt="logo" style="width:130px ; height:125px">
+    <a href="index.html">Home</a>
 
-</div>
+    <a href="about.html">About</a>
 
+    <a href="breakfast.html">Breakfast</a>
 
-<h1>Shrimp Stir Fry </h1>
+    <a href="Lunch.html">Lunch</a>
 
-<picture>
+    <a href="Appetizers.html">Appetizers</a>
 
-<img src="https://www.jessicagavin.com/wp-content/uploads/2018/01/shrimp-stir-fry8.jpg "height = "300px" width= "450px" alt="MDN">
+    <a href="Dinner.html">Dinner</a>
 
-</picture>
+    <a href="dessert.html">Desserts</a>
 
-<p>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a food">
 
-  Prep time: 20 minutes
 
-  </p>
 
-  <p>
+  </div>
 
-  Cook time: 10 minutes
 
-  </p>
 
-  <p>
 
-  Total time: 30 minutes
 
-  </p>
 
 
+  <ul id="myUL">
 
-<h2>Ingredients</h2>
+  <li><a href="dessert.html">Desserts</a></li>
 
-<p>
+  <li><a href="lunch.html">Lunch</a></li>
 
-1 tablespoon salt
+  <li><a href="dinner.html">Dinner</a></li>
 
-</p>
+  <li><a href="appetizers.html">Appetizers</a></li>
 
-<p>
+  <li><a href="breakfast.html">Breakfest</a></li>
 
-2 cups cold water
 
-</p>
 
-<p>
+  <li><a href="BroccoliCheeseSoup.html">Broccoli Cheddar Soup </a></li>
 
-1 pound shrimp, peeled and deveined
+  <li><a href="GrilledTomatoandCheeseSandwich.html">Grilled Tomato and Cheese Sandwich  </a></li>
 
-</p>
+  <li><a href="PastawithsausagespinachcreamyGorgonzola.html">Pasta with sausage, spinach & creamy Gorgonzola</a></li>
 
-<p>
+  <li><a href="CobbSalad.html">Cobb Salad</a></li>
 
-1/3 cup chicken broth</p>
+  <li><a href="PestoPastaSalad.html">Pesto Pasta Salad</a></li>
 
-<p>
+  <li><a href="ChickenSaladWrap.html">Chicken Salad Wrap</a></li>
 
-2 teaspoons rice wine</p>
+  <li><a href="TunaSalad.html">Tuna Salad</a></li>
 
-<p>
+  <li><a href="ChickenNoodleSoup.html">Chicken Noodle Soup </a></li>
 
-1 1/2 teaspoons soy sauce</p>
+  <li><a href="ShrimpStirFry.html">Shrimp Stir Fry</a></li>
 
-<p>
+  <li><a href="CaliforniaRollSushi.html">California Roll Sushi </a></li>
 
-1 1/2 teaspoons cornstarch</p>
 
-<p>
 
-3/4 teaspoon sugar</p>
 
-<p>
 
-1/8 teaspoon ground white pepper</p>
+  <li><a href="oatmeal.html">Overnight Peach Oatmeal</a></li>
 
-<p>
+  <li><a href="eggsandwich.html">Breakfast Biscuits 'N' Eggs </a></li>
 
-1 tablespoon vegetable oil</p>
+  <li><a href="potatoes.html">Home Potatoes</a></li>
 
-<p>
+  <li><a href="french.html">French Toast Fingers</a></li>
 
-2 tablespoons minced garlic</p>
+  <li><a href="banana.html">Gluten-Free Banana Pancakes</a></li>
 
-<p>
+  <li><a href="zucchini.html">Zucchini Fritata</a></li>
 
-1 teaspoon minced fresh ginger root</p>
+  <li><a href="tex.html">Tex-Mex Breakfast Haystacks</a></li>
 
-<p>
+  <li><a href="crepes.html">Creamy Banana Crepes</a></li>
 
-2 teaspoons vegetable oil</p>
+  <li><a href="hash.html">Southern Hash Browns and Ham Pan Bake</a></li>
 
-<p>
+  <li><a href="chocolate.html">Chocolate Lover's Pancakes</a></li>
 
-6 ounces snow peas, strings removed</p>
 
-<p>
 
-2 tablespoons chopped fresh chives</p>
 
-<p>
 
-1/4 teaspoon salt</p>
+  <li><a href="oreo.html">Oreo Truffles</a></li>
 
-<p>
+  <li><a href="cheesecake.html">Strawberry Icebox Cake </a></li>
 
+  <li><a href="cereal.html">Chocolate Cereal Treats</a></li>
 
+  <li><a href="icecream.html">Vegan Banana Ice Cream</a></li>
 
-<h2>
+  <li><a href="shortcake.html">Strawberry Shortcake Milkshake</a></li>
 
-  Instructions
+  <li><a href="yogurt.html">Healthy Chocolate Chip Peanut Butter Frozen Yogurt</a></li>
 
-  </h2>
+  <li><a href="smores.html">Marshmallow Smores</a></li>
 
-<p> 1. In a large bowl, stir salt into water until dissolved. Add shrimp, and set aside 5 minutes. Rinse shrimps, and dry on paper towels.
+  <li><a href="milkshake.html">Salted Pretzel Nutella Fudge Milkshake</a></li>
 
-</p>
+  <li><a href="keto.html">Keto Chocolate Mousse</a></li>
 
-<p>
+  <li><a href="bars.html">Magic Bars</a></li>
 
-  2.In a small bowl, mix together broth, rice wine, soy sauce, cornstarch, sugar, and pepper. Set aside.</p>
 
-<p>
 
-  3.Heat 1 tablespoon oil in a large skillet or wok over high heat. Cook shrimp, turning constantly, until pink on all sides, about 1 minute. Stir in garlic, ginger, and 2 teaspoons oil. Stir in snow peas, chives, and 1/4 teaspoon salt; stir-fry 1 minute more.
+  <li><a href="S&M.html">Spaghetti and Meatballs</a></li>
 
-</p>
+  <li><a href="M&C.html">Mac & Cheese </a></li>
 
-  <p>
+  <li><a href="SloppyJoes.html">Sloppy Joe Slider</a></li>
 
-    4. Stir broth mixture into skillet, and continue cooking until sauce thickens. Serve immediately.
+  <li><a href="Beef Stroganoff.html">Beef Stroganoff</a></li>
 
-</p>
+  <li><a href="PanFriedTilapia.html">Pan Fried Tilapia</a></li>
 
+  <li><a href="OrangeChicken.html"> Orange Chicken</a></li>
 
+  <li><a href="Vegan.html">Vegan Mushroom Stroganoff</a></li>
 
-<h2>
+  <li><a href="Alfredo.html">Fettuccini Alfredo</a></li>
 
-  Nutrition</h2>
+  <li><a href="Rice.html">Rice and Beans</a></li>
 
-<p>
+  <li><a href="meat.html">Meat Loaf</a></li>
 
-  Servings Per Recipe: 4
 
-</p>
 
-  <p>
 
-Amount Per Serving</p>
 
-  <p>
+  <li><a href="eggs.html">Bacon Cheddar Deviled Eggs</a></li>
 
-Calories: 207</p>
+  <li><a href="guacamole.html">Guacamole </a></li>
 
-  <p>
+  <li><a href="meatballs.html">Cajun Appetizer Meatballs</a></li>
 
-% Daily Value *</p>
+  <li><a href="Mozzarella.html">Mozzarella and Tomato Appetizer Tray</a></li>
 
-  <p>
+  <li><a href="hamandcheese.html">Easy Ham and Cheese Appetizer Sandwiches</a></li>
 
-Total Fat: 7.8g 12 %</p>
+  <li><a href="potatoskins.html">Restaurant-Style Potato Skins</a></li>
 
-  <p>
+  <li><a href="sausages.html">Brown Sugar Smokies</a></li>
 
-Saturated Fat: 1.0g</p>
+  <li><a href="jalapenos.html">Bacon-Wrapped Jalapeno Popperss</a></li>
 
-  <p>
+  <li><a href="spinachdip.html">Hot Artichoke and Spinach Dip </a></li>
 
-Cholesterol: 173mg 58 %</p>
+  <li><a href="wings.html">Restaurant-Style Buffalo Chicken Wings </a></li>
 
-  <p>
 
-Sodium: 2172mg 87 %</p>
 
-  <p>
+  </ul>
 
-Potassium: 323mg 9 %</p>
 
-  <p>
 
-Total Carbohydrates: 7.8g 3 %</p>
+  <script>
 
-  <p>
+  function myFunction() {
 
-Dietary Fiber: 1.3g 5 %</p>
+  var input, filter, ul, li, a, i, txtValue;
 
-  <p>
+  input = document.getElementById("myInput");
 
-Protein: 24.7g 49 %</p>
+  filter = input.value.toUpperCase();
 
-  <p>
+  ul = document.getElementById("myUL");
 
-Sugars: 3g</p>
+  li = ul.getElementsByTagName('li');
 
-  <p>
 
-Vitamin A: 727IU</p>
 
-  <p>
+  if(input.value.length == 0){
 
-Vitamin C: 30mg</p>
+  ul.style.display = "none";
 
-  <p>
+  return;
 
-Calcium: 88mg</p>
+  }else{
 
-  <p>
+  ul.style.display = "block";
 
-Iron: 4mg</p>
+  }
 
-  <p>
+  // Loop through all list items, and hide those who don't match the search query
 
-Thiamin: 0mg</p>
+  for (i = 0; i < li.length; i++) {
 
-  <p>
+  a = li[i].getElementsByTagName("a")[0];
 
-Niacin: 9mg</p>
+  if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
 
-  <p>
+  li[i].style.display = "block";
 
-Vitamin B6: 0mg</p>
+  } else {
 
-  <p>
+  li[i].style.display = "none";
 
-Magnesium: 55mg</p>
+  }
 
-  <p>
+  }
 
-Folate: 23mcg</p>
+  }
 
-  <p>
+  </script>
 
-*</p>
 
-  <p>
 
-Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.</p>
+<div class="hero-image"></div>
 
+<h1><center><b><font size="10">Shrimp Stir Fry</font></b> </center></h1>
+<table style="width:50%" cellpadding="0" border="0" align="center" cellspacing="0">
 
+<tr>
+<td>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h1>Ingredients:</h1>
+      <ul>
+        <li>
+        1 tablespoon salt
+      </li>
+        <li>
+        2 cups cold water
+      </li>
+        <li>
+        1 pound shrimp, peeled and deveined
+      </li>
+        <li>
+        1/3 cup chicken broth</li>
+        <li>
+        2 teaspoons rice wine</li>
+        <li>
+        1 1/2 teaspoons soy sauce</li>
+        <li>
+        1 1/2 teaspoons cornstarch</li>
+        <li>
+        3/4 teaspoon sugar</li>
+        <li>
+        1/8 teaspoon ground white pepper</li>
+        <li>
+        1 tablespoon vegetable oil</li>
+        <li>
+        2 tablespoons minced garlic</li>
+        <li>
+        1 teaspoon minced fresh ginger root</li>
+        <li>
+        2 teaspoons vegetable oil</li>
+        <li>
+        6 ounces snow peas, strings removed</li>
+        <li>
+        2 tablespoons chopped fresh chives</li>
+        <li>
+        1/4 teaspoon salt</li>
+        <li>
 
-<h3>
+      </ul>
+    </div>
+  </div>
+</td>
 
-  Click <a href=" https://www.allrecipes.com/recipe/84142/stir-fried-shrimp-with-snow-peas-and-ginger/?internalSource=streams&referringId=915&referringContentType=Recipe%20Hub&clickId=st_trending_b  ">here</a> for more information.
+<td>
+  <div class="column">
+    <div class="card">
+      <h1><center>Instructions</center></h1>
+      <iframe width="400" height="350" src="https://www.youtube.com/embed/nFYsDEBORsc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <ol>
+        <li> 1. In a large bowl, stir salt into water until dissolved. Add shrimp, and set aside 5 minutes. Rinse shrimps, and dry on paper towels.
+                <li>
+            2.In a small bowl, mix together broth, rice wine, soy sauce, cornstarch, sugar, and pepper. Set aside.
+           </li>
+        <li>
+          3.Heat 1 tablespoon oil in a large skillet or wok over high heat. Cook shrimp, turning constantly, until pink on all sides, about 1 minute. Stir in garlic, ginger, and 2 teaspoons oil. Stir in snow peas, chives, and 1/4 teaspoon salt; stir-fry 1 minute more.
+</li>
+<li>4. Stir broth mixture into skillet, and continue cooking until sauce thickens. Serve immediately.
+</li>
+      
+      </ol>
+      <p>Click <a href= "https://www.allrecipes.com/recipe/84142/stir-fried-shrimp-with-snow-peas-and-ginger/?internalSource=streams&referringId=915&referringContentType=Recipe%20Hub&clickId=st_trending_b  ">here</a> for more information.</p>
+    </div>
+  </div>
+</td>
+</tr>
 
-</h3>
+<tr>
+<td>
+  <div class="column">
+    <div class="card">
+      <h1> <center>Total Time:  30 minutes </center> </h1>
+      <h1><center>Nutrition</center></h1>
+      <ul>
+        <li>  Per Serving</li>
+        <ul>
+      <li>Calories 207</li>
+      <li>Total Fat 7.8g  </li>
+      <li>Protein 24.7g</li>
+      <li>Cholesterol 173mg</li>
+      <li>Sodium 2,172mg</li>
+      <li>sugar 3g</li>
+      </ul>
+    </div>
+  </div>
+</td>
+</tr>
 
-
-
-<h3>
-
-  Or watch this video
-
-  </h3>
-
-
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/nFYsDEBORsc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
+</table>
 </body>
 </html>

@@ -1,17 +1,12 @@
+
 <!DOCTYPE html>
 
+<html>
 
 
-<html lang="en">
-
-
-
-<head>
-
-
+  <title> Grilled Tomato and CHeese Sandwhich </title>
 
   <meta charset="utf-8">
-
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -19,9 +14,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-
 <style>
+
+
 
 
 
@@ -30,7 +25,15 @@ body {margin:0;}
 
 
 
+
+
+
+
 .navbar {
+
+
+
+
 
 
 
@@ -38,7 +41,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   background-color: #333;
+
+
+
+
 
 
 
@@ -46,7 +57,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   top: 0;
+
+
+
+
 
 
 
@@ -54,11 +73,23 @@ body {margin:0;}
 
 
 
+
+
+
+
   z-index:1; /*Add this*/
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -66,7 +97,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   float: left;
+
+
+
+
 
 
 
@@ -74,7 +113,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   color: #f2f2f2;
+
+
+
+
 
 
 
@@ -82,7 +129,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   padding: 14px 16px;
+
+
+
+
 
 
 
@@ -90,11 +145,23 @@ body {margin:0;}
 
 
 
+
+
+
+
   font-size: 17px;
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -102,7 +169,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   background: #ddd;
+
+
+
+
 
 
 
@@ -110,7 +185,15 @@ body {margin:0;}
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -118,7 +201,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   padding: 16px;
+
+
+
+
 
 
 
@@ -126,7 +217,15 @@ body {margin:0;}
 
 
 
+
+
+
+
   height: 1500px; /* Used in this example to enable scrolling */
+
+
+
+
 
 
 
@@ -134,273 +233,440 @@ body {margin:0;}
 
 
 
+* {
+
+box-sizing: border-box;
+
+}
+
+
+
+#myInput {
+
+background-image: url('/css/searchicon.png');
+
+background-position: 10px 12px;
+
+background-repeat: no-repeat;
+
+width: 25%;
+
+font-size: 16px;
+
+padding: 12px 20px 12px 40px;
+
+border: 1px solid #ddd;
+
+margin-bottom: 12px;
+
+}
+
+#myUL li{
+
+display:none;
+
+}
+
+#myUL {
+
+list-style-type: none;
+
+padding: 0;
+
+margin: 0;
+
+}
+
+
+
+#myUL li a {
+
+border: 1px solid #ddd;
+
+margin-top: -1px; /* Prevent double borders */
+
+background-color: #f6f6f6;
+
+padding: 12px;
+
+text-decoration: none;
+
+font-size: 18px;
+
+color: black;
+
+display: block
+
+}
+
+
+
+#myUL li a:hover:not(.header) {
+
+background-color: #eee;
+
+}
+
+
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  .hero-image {
+    background-image:  url("grilledcheese.jpg ");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 100%;
+    padding: 0 90px;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 90px;
+    background-color: #f1f1f1;
+  }
+
+h1{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif    ;
+}
+li, p {
+  font-family:"Courier New", Courier, monospace;
+}
+
 </style>
-
-
-
 </head>
+<body>
 
-<body >
 
 
 
-<div class="navbar">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="breakfast.html">Breakfast</a>
-  <a href="Lunch.html">Lunch</a>
-  <a href="Appetizers.html">Appetizers</a>
-  <a href="Dinner.html">Dinner</a>
-  <a href="dessert.html">Desserts</a>
-  <input type="text" placeholder="Search..">
+  <div class="navbar">
+<img src="h.jpg" alt="logo" style="width:130px ; height:125px">
+    <a href="index.html">Home</a>
 
-</div>
+    <a href="about.html">About</a>
 
+    <a href="breakfast.html">Breakfast</a>
 
-<h1>Grilled Tomato and Cheese Sandwich</h1>
+    <a href="Lunch.html">Lunch</a>
 
-<picture>
+    <a href="Appetizers.html">Appetizers</a>
 
-<img src=" grilledcheese.jpg"height = "300px" width= "450px" alt="MDN">
+    <a href="Dinner.html">Dinner</a>
 
-</picture>
+    <a href="dessert.html">Desserts</a>
 
-<p>
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." title="Type in a food">
 
-  Prep time: 10 minutes
 
-  </p>
 
-  <p>
+  </div>
 
-  Cook time: 10 minutes
 
-  </p>
 
-  <p>
 
-  Total time: 35 minutes
 
-  </p>
 
 
+  <ul id="myUL">
 
-<h2>Ingredients</h2>
+  <li><a href="dessert.html">Desserts</a></li>
 
-<p>
+  <li><a href="lunch.html">Lunch</a></li>
 
-Butter
+  <li><a href="dinner.html">Dinner</a></li>
 
-</p>
+  <li><a href="appetizers.html">Appetizers</a></li>
 
-<p>
+  <li><a href="breakfast.html">Breakfest</a></li>
 
-Bread
 
-</p>
 
-<p>
+  <li><a href="BroccoliCheeseSoup.html">Broccoli Cheddar Soup </a></li>
 
-Cheese
+  <li><a href="GrilledTomatoandCheeseSandwich.html">Grilled Tomato and Cheese Sandwich  </a></li>
 
-</p>
+  <li><a href="PastawithsausagespinachcreamyGorgonzola.html">Pasta with sausage, spinach & creamy Gorgonzola</a></li>
 
-<p>
+  <li><a href="CobbSalad.html">Cobb Salad</a></li>
 
-Tomatoes</p>
+  <li><a href="PestoPastaSalad.html">Pesto Pasta Salad</a></li>
 
+  <li><a href="ChickenSaladWrap.html">Chicken Salad Wrap</a></li>
 
+  <li><a href="TunaSalad.html">Tuna Salad</a></li>
 
-<h2>
+  <li><a href="ChickenNoodleSoup.html">Chicken Noodle Soup </a></li>
 
-  Instructions
+  <li><a href="ShrimpStirFry.html">Shrimp Stir Fry</a></li>
 
-  </h2>
+  <li><a href="CaliforniaRollSushi.html">California Roll Sushi </a></li>
 
-<p> 1. Thinly slice the tomatoes and lay them on a paper towel. Sprinkle with salt and let sit to release any water, about 15 minutes. Pat dry.
 
-</p>
 
-<p>
 
-  2.Lay out 4 slices of the bread on a work surface. Layer each with 2 slices of cheese, making sure that they cover to the edges. Follow with 2 slices of tomato and then 1 more slice of cheese. Close the sandwiches with the remaining bread. Thinly and evenly spread the butter on both sides of the bread using about 1 1/2 tablespoons of the butter for each sandwich.
 
-<p>
+  <li><a href="oatmeal.html">Overnight Peach Oatmeal</a></li>
 
-  3.Place 2 sandwiches into a nonstick medium skillet over medium heat. Cover the skillet with a lid and cook until the bread is evenly golden brown, about 2 minutes. Flip, cover again and cook until the bread is golden brown and the cheese is visibly melted, about 2 minutes more. Repeat with the remaining sandwiches
+  <li><a href="eggsandwich.html">Breakfast Biscuits 'N' Eggs </a></li>
 
-</p>
+  <li><a href="potatoes.html">Home Potatoes</a></li>
 
+  <li><a href="french.html">French Toast Fingers</a></li>
 
+  <li><a href="banana.html">Gluten-Free Banana Pancakes</a></li>
 
-<h2>
+  <li><a href="zucchini.html">Zucchini Fritata</a></li>
 
-  Nutrition</h2>
+  <li><a href="tex.html">Tex-Mex Breakfast Haystacks</a></li>
 
-<p>
+  <li><a href="crepes.html">Creamy Banana Crepes</a></li>
 
+  <li><a href="hash.html">Southern Hash Browns and Ham Pan Bake</a></li>
 
+  <li><a href="chocolate.html">Chocolate Lover's Pancakes</a></li>
 
-Serving Size</p>
 
-<p>
 
-1 sandwich</p>
 
-<p>
 
-Amount Per Serving</p>
+  <li><a href="oreo.html">Oreo Truffles</a></li>
 
-<p>
+  <li><a href="cheesecake.html">Strawberry Icebox Cake </a></li>
 
-Calories
+  <li><a href="cereal.html">Chocolate Cereal Treats</a></li>
 
-259</p>
+  <li><a href="icecream.html">Vegan Banana Ice Cream</a></li>
 
-<p>
+  <li><a href="shortcake.html">Strawberry Shortcake Milkshake</a></li>
 
+  <li><a href="yogurt.html">Healthy Chocolate Chip Peanut Butter Frozen Yogurt</a></li>
 
+  <li><a href="smores.html">Marshmallow Smores</a></li>
 
-% Daily Values*</p>
+  <li><a href="milkshake.html">Salted Pretzel Nutella Fudge Milkshake</a></li>
 
-<p>
+  <li><a href="keto.html">Keto Chocolate Mousse</a></li>
 
-Total Fat
+  <li><a href="bars.html">Magic Bars</a></li>
 
-13.68g
 
- 21%</p>
 
-<p>
+  <li><a href="S&M.html">Spaghetti and Meatballs</a></li>
 
-Saturated Fat
+  <li><a href="M&C.html">Mac & Cheese </a></li>
 
-6.524g
+  <li><a href="SloppyJoes.html">Sloppy Joe Slider</a></li>
 
- 33%</p>
+  <li><a href="Beef Stroganoff.html">Beef Stroganoff</a></li>
 
-<p>
+  <li><a href="PanFriedTilapia.html">Pan Fried Tilapia</a></li>
 
-Trans Fat
+  <li><a href="OrangeChicken.html"> Orange Chicken</a></li>
 
--</p>
+  <li><a href="Vegan.html">Vegan Mushroom Stroganoff</a></li>
 
-<p>
+  <li><a href="Alfredo.html">Fettuccini Alfredo</a></li>
 
-Polyunsaturated Fat
+  <li><a href="Rice.html">Rice and Beans</a></li>
 
- 1.89g</p>
+  <li><a href="meat.html">Meat Loaf</a></li>
 
-<p>
 
-Monounsaturated Fat
 
- 4.413g</p>
 
-<p>
 
-Cholesterol
+  <li><a href="eggs.html">Bacon Cheddar Deviled Eggs</a></li>
 
-28mg
+  <li><a href="guacamole.html">Guacamole </a></li>
 
- 9%</p>
+  <li><a href="meatballs.html">Cajun Appetizer Meatballs</a></li>
 
-<p>
+  <li><a href="Mozzarella.html">Mozzarella and Tomato Appetizer Tray</a></li>
 
-Sodium
+  <li><a href="hamandcheese.html">Easy Ham and Cheese Appetizer Sandwiches</a></li>
 
-502mg
+  <li><a href="potatoskins.html">Restaurant-Style Potato Skins</a></li>
 
- 21%</p>
+  <li><a href="sausages.html">Brown Sugar Smokies</a></li>
 
-<p>
+  <li><a href="jalapenos.html">Bacon-Wrapped Jalapeno Popperss</a></li>
 
-Total Carbohydrate
+  <li><a href="spinachdip.html">Hot Artichoke and Spinach Dip </a></li>
 
-23.83g
+  <li><a href="wings.html">Restaurant-Style Buffalo Chicken Wings </a></li>
 
- 8%</p>
 
-<p>
 
-Dietary Fiber
+  </ul>
 
-1.1g
 
- 5%</p>
 
-<p>
+  <script>
 
-Sugars
+  function myFunction() {
 
-2.33g</p>
+  var input, filter, ul, li, a, i, txtValue;
 
-<p>
+  input = document.getElementById("myInput");
 
-Protein
+  filter = input.value.toUpperCase();
 
-10.11g</p>
+  ul = document.getElementById("myUL");
 
-<p>
+  li = ul.getElementsByTagName('li');
 
-Vitamin D
 
--</p>
 
-<p>
+  if(input.value.length == 0){
 
-Calcium
+  ul.style.display = "none";
 
-263mg
+  return;
 
- 26%</p>
+  }else{
 
-<p>
+  ul.style.display = "block";
 
-Iron
+  }
 
-1.89mg
+  // Loop through all list items, and hide those who don't match the search query
 
- 11%</p>
+  for (i = 0; i < li.length; i++) {
 
-<p>
+  a = li[i].getElementsByTagName("a")[0];
 
-Potassium
+  if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
 
-93mg
+  li[i].style.display = "block";
 
- 3%</p>
+  } else {
 
-<p>
+  li[i].style.display = "none";
 
-Vitamin A
+  }
 
-526IU
+  }
 
- 11%</p>
+  }
 
-<p>
+  </script>
 
-Vitamin C
 
-1.1mg
 
- 2%</p>
+<div class="hero-image"></div>
 
-<p>
+<h1><center><b><font size="10"> Grilled Tomato and Cheese Sandwich</font></b> </center></h1>
+<table style="width:50%" cellpadding="0" border="0" align="center" cellspacing="0">
 
-* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice.
+<tr>
+<td>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h1>Ingredients:</h1>
+      <ul>
+        <li>Butter</li>
+        <li> Bread Slices </li>
+        <li>Cheese</li>
+        <li>Tomato</li>
+        
 
-</p>
+      </ul>
+    </div>
+  </div>
+</td>
 
+<td>
+  <div class="column">
+    <div class="card">
+      <h1><center>Instructions</center></h1>
+      <iframe width="400" height="350" src="https://players.brightcove.net/1033249144001/HyUr5pA17_default/index.html?videoId=4387116251001" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <ol>
+        <li>1. Thinly slice the tomatoes and lay them on a paper towel. Sprinkle with salt and let sit to release any water, about 15 minutes. Pat dry.
+        </li>
+        <li>   2.Lay out 4 slices of the bread on a work surface. Layer each with 2 slices of cheese, making sure that they cover to the edges. Follow with 2 slices of tomato and then 1 more slice of cheese. Close the sandwiches with the remaining bread. Thinly and evenly spread the butter on both sides of the bread using about 1 1/2 tablespoons of the butter for each sandwich.
+        </li>
+      <li>Place 2 sandwiches into a nonstick medium skillet over medium heat. Cover the skillet with a lid and cook until the bread is evenly golden brown, about 2 minutes. Flip, cover again and cook until the bread is golden brown and the cheese is visibly melted, about 2 minutes more. Repeat with the remaining sandwiches
+      </li>
+      </ol>
+      <p>Click <a href="https://www.foodnetwork.com/recipes/food-network-kitchen/grilled-tomato-and-cheese-recipe-2121326 ">here</a> for more information.</p>
+    </div>
+  </div>
+</td>
+</tr>
 
+<tr>
+<td>
+  <div class="column">
+    <div class="card">
+      <h1> <center>Total Time: 35 minutes </center> </h1>
+      <h1><center>Nutrition</center></h1>
+      <ul>
+        <li>  Per Serving</li>
+        <ul>
+      <li>Calories: 259</li>
+      <li>total fat: 13.68g</li>
+      <li>protein: 10.11g </li>
+      <li>cholesterol: 28mg</li>
+      <li>sodium: 502mg</li>
+      <li>sugar: 2.33g</li>
+      </ul>
+    </div>
+  </div>
+</td>
+</tr>
 
-<h3>
-
-  Click <a href="https://www.foodnetwork.com/recipes/food-network-kitchen/grilled-tomato-and-cheese-recipe-2121326
-
- ">here</a> for more information.
-
-</h3>
+</table>
 </body>
 </html>
